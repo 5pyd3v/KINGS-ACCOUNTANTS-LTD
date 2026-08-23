@@ -1,0 +1,64 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
+import { PageHeader } from "@/components/shared/PageHeader";
+import { Reveal } from "@/components/shared/Reveal";
+import { ContactCTA } from "@/components/home/ContactCTA";
+import { getFactsheetCategories, getSiteSettings } from "@/lib/content";
+import receptionImage from "../../../../public/images/office-reception.jpg";
+
+export const metadata: Metadata = {
+  title: "Factsheets",
+  description:
+    "Browse our library of factsheets covering tax, employment, VAT, pensions and more.",
+};
+
+export default async function FactsheetsPage() {
+  const [categories, settings] = await Promise.all([
+    getFactsheetCategories(),
+    getSiteSettings(),
+  ]);
+
+  return (
+    <>
+      <PageHeader
+        eyebrow="Resources"
+        lines={["Factsheets."]}
+        intro="A library of practical guides covering the topics that come up most often — organised by subject area."
+        image={receptionImage}
+      />
+
+      <section className="bg-paper py-24">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {categories.map((category, index) => (
+              <Reveal key={category.slug} delay={index * 0.05}>
+                <Link
+                  href={`/factsheets/${category.slug}`}
+                  className="group flex h-full flex-col justify-between rounded-2xl border border-ink-100 bg-paper-dim/60 p-7 transition-colors duration-500 hover:border-brand-200"
+                >
+                  <div>
+                    <h2 className="font-display text-xl leading-snug text-ink-900">
+                      {category.title}
+                    </h2>
+                    {category.description && (
+                      <p className="mt-3 text-sm leading-relaxed text-ink-500">
+                        {category.description}
+                      </p>
+                    )}
+                  </div>
+                  <span className="mt-6 inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.18em] text-ink-400 transition-colors duration-500 group-hover:text-brand-700">
+                    View factsheets
+                    <ArrowUpRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </span>
+                </Link>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <ContactCTA settings={settings} />
+    </>
+  );
+}
