@@ -2,7 +2,7 @@
 
 import { Reveal } from "@/components/shared/Reveal";
 import { ScrollHeading } from "@/components/shared/ScrollHeading";
-import { ServiceIcon } from "@/components/shared/ServiceIcon";
+import { FeatureCard } from "@/components/shared/FeatureCard";
 import type { SiteSettingsView } from "@/lib/site-config";
 
 export function WhyChooseUs({ settings }: { settings: SiteSettingsView }) {
@@ -32,13 +32,13 @@ export function WhyChooseUs({ settings }: { settings: SiteSettingsView }) {
           <div className="grid gap-4 sm:grid-cols-2">
             {settings.whyChooseUs.map((pillar, index) => (
               <Reveal key={pillar.title} delay={index * 0.06}>
-                <div className="group h-full rounded-2xl border border-ink-100 bg-paper p-7 shadow-[0_1px_2px_rgba(26,22,19,0.04),0_12px_32px_-16px_rgba(26,22,19,0.1)] transition-all duration-500 hover:-translate-y-1 hover:border-brand-200 hover:shadow-[0_1px_2px_rgba(26,22,19,0.04),0_28px_56px_-20px_rgba(139,26,58,0.22)]">
-                  <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-ink-100 bg-gradient-to-br from-paper-dim to-paper text-brand-700 shadow-[0_2px_8px_-2px_rgba(26,22,19,0.1)] transition-all duration-500 group-hover:border-brand-200 group-hover:from-brand-50 group-hover:to-brand-100/60">
-                    <ServiceIcon name={pillar.iconName} className="h-5 w-5" />
-                  </span>
-                  <h3 className="mt-6 font-display text-lg text-ink-900">{pillar.title}</h3>
-                  <p className="mt-3 text-sm leading-relaxed text-ink-500">{pillar.body}</p>
-                </div>
+                <FeatureCard
+                  iconName={pillar.iconName}
+                  title={pillar.title}
+                  body={pillar.body}
+                  spotlight={index === 0}
+                  className="h-full"
+                />
               </Reveal>
             ))}
           </div>

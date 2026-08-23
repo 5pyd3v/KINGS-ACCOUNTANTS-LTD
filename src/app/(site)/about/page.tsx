@@ -3,7 +3,7 @@ import Image from "next/image";
 import { PageHeader } from "@/components/shared/PageHeader";
 import { Reveal } from "@/components/shared/Reveal";
 import { ScrollHeading } from "@/components/shared/ScrollHeading";
-import { ServiceIcon } from "@/components/shared/ServiceIcon";
+import { FeatureCard } from "@/components/shared/FeatureCard";
 import { ContactCTA } from "@/components/home/ContactCTA";
 import { getSiteSettings } from "@/lib/content";
 import aboutImage from "../../../../public/images/about-team.jpg";
@@ -86,13 +86,13 @@ export default async function AboutPage() {
           <div className="mt-16 grid gap-4 md:grid-cols-3">
             {FOCUS_AREAS.map((area, index) => (
               <Reveal key={area.title} delay={index * 0.08}>
-                <div className="group h-full rounded-2xl border border-ink-100 bg-paper p-7 shadow-[0_1px_2px_rgba(26,22,19,0.04),0_12px_32px_-16px_rgba(26,22,19,0.1)] transition-all duration-500 hover:-translate-y-1 hover:border-brand-200 hover:shadow-[0_1px_2px_rgba(26,22,19,0.04),0_28px_56px_-20px_rgba(139,26,58,0.22)]">
-                  <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-ink-100 bg-gradient-to-br from-paper-dim to-paper text-brand-700 shadow-[0_2px_8px_-2px_rgba(26,22,19,0.1)] transition-all duration-500 group-hover:border-brand-200 group-hover:from-brand-50 group-hover:to-brand-100/60">
-                    <ServiceIcon name={area.iconName} className="h-5 w-5" />
-                  </span>
-                  <h3 className="mt-6 font-display text-xl text-ink-900">{area.title}</h3>
-                  <p className="mt-3 text-sm leading-relaxed text-ink-500">{area.body}</p>
-                </div>
+                <FeatureCard
+                  iconName={area.iconName}
+                  title={area.title}
+                  body={area.body}
+                  spotlight={index === 1}
+                  className="h-full"
+                />
               </Reveal>
             ))}
           </div>
@@ -132,13 +132,13 @@ export default async function AboutPage() {
           <div className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {settings.whyChooseUs.map((pillar, index) => (
               <Reveal key={pillar.title} delay={index * 0.06}>
-                <div className="group h-full rounded-2xl border border-ink-100 bg-paper p-7 shadow-[0_1px_2px_rgba(26,22,19,0.04),0_12px_32px_-16px_rgba(26,22,19,0.1)] transition-all duration-500 hover:-translate-y-1 hover:border-brand-200 hover:shadow-[0_1px_2px_rgba(26,22,19,0.04),0_28px_56px_-20px_rgba(139,26,58,0.22)]">
-                  <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-ink-100 bg-gradient-to-br from-paper-dim to-paper text-brand-700 shadow-[0_2px_8px_-2px_rgba(26,22,19,0.1)] transition-all duration-500 group-hover:border-brand-200 group-hover:from-brand-50 group-hover:to-brand-100/60">
-                    <ServiceIcon name={pillar.iconName} className="h-5 w-5" />
-                  </span>
-                  <h3 className="mt-6 font-display text-lg text-ink-900">{pillar.title}</h3>
-                  <p className="mt-3 text-sm leading-relaxed text-ink-500">{pillar.body}</p>
-                </div>
+                <FeatureCard
+                  iconName={pillar.iconName}
+                  title={pillar.title}
+                  body={pillar.body}
+                  spotlight={index === 2}
+                  className="h-full"
+                />
               </Reveal>
             ))}
           </div>

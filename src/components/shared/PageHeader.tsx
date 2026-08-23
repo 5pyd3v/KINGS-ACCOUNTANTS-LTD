@@ -63,9 +63,14 @@ export function PageHeader({ eyebrow, lines, intro, image }: PageHeaderProps) {
   }
 
   return (
-    <header className={cn("relative overflow-hidden border-b border-ink-100 bg-paper pb-20 pt-40")}>
-      <div className="pointer-events-none absolute -right-40 -top-40 h-[30rem] w-[30rem] rounded-full bg-brand-100 opacity-50 blur-3xl" />
-      <div className="pointer-events-none absolute -left-24 bottom-0 h-[22rem] w-[22rem] rounded-full bg-gilt-200 opacity-30 blur-3xl" />
+    <header
+      className={cn(
+        "relative overflow-hidden border-b border-ink-100 bg-gradient-to-b from-brand-50/70 via-paper to-paper pb-20 pt-40"
+      )}
+    >
+      <span className="pointer-events-none absolute inset-x-0 top-0 h-1.5 bg-gradient-to-r from-brand-600 via-brand-500 to-gilt-500" />
+      <div className="pointer-events-none absolute -right-40 -top-40 h-[30rem] w-[30rem] rounded-full bg-brand-200 opacity-45 blur-3xl" />
+      <div className="pointer-events-none absolute -left-24 bottom-0 h-[22rem] w-[22rem] rounded-full bg-gilt-300 opacity-35 blur-3xl" />
       <div
         className="pointer-events-none absolute inset-0 opacity-40"
         style={{

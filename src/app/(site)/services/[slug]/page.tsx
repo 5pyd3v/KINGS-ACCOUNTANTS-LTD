@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowUpRight } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { PageHeader } from "@/components/shared/PageHeader";
 import { Reveal } from "@/components/shared/Reveal";
-import { ServiceIcon } from "@/components/shared/ServiceIcon";
+import { IconBadge } from "@/components/shared/IconBadge";
+import { FeatureCard } from "@/components/shared/FeatureCard";
 import { ContactCTA } from "@/components/home/ContactCTA";
 import { getServiceBySlug, getServices, getSiteSettings } from "@/lib/content";
 import officeImage from "../../../../../public/images/office-building.jpg";
@@ -61,9 +62,7 @@ export default async function ServiceDetailPage({
 
           <div className="grid gap-16 lg:grid-cols-[1fr_2fr]">
             <div className="lg:sticky lg:top-32 lg:self-start">
-              <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-ink-100 bg-paper-dim text-brand-700">
-                <ServiceIcon name={service.iconName} className="h-7 w-7" />
-              </span>
+              <IconBadge name={service.iconName} size="xl" className="rounded-2xl" />
             </div>
 
             <div className="space-y-6 text-lg leading-relaxed text-ink-600">
@@ -84,23 +83,14 @@ export default async function ServiceDetailPage({
             <div className="mt-10 grid gap-4 md:grid-cols-3">
               {others.map((item, index) => (
                 <Reveal key={item.slug} delay={index * 0.07}>
-                  <Link
+                  <FeatureCard
                     href={`/services/${item.slug}`}
-                    className="group flex h-full flex-col justify-between rounded-2xl border border-ink-100 bg-paper p-7 transition-colors duration-500 hover:border-brand-200"
-                  >
-                    <div>
-                      <span className="inline-flex text-brand-700">
-                        <ServiceIcon name={item.iconName} className="h-5 w-5" />
-                      </span>
-                      <h3 className="mt-5 font-display text-lg leading-snug text-ink-900">
-                        {item.title}
-                      </h3>
-                    </div>
-                    <span className="mt-6 inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.18em] text-ink-400 transition-colors duration-500 group-hover:text-brand-700">
-                      Read more
-                      <ArrowUpRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                    </span>
-                  </Link>
+                    iconName={item.iconName}
+                    title={item.title}
+                    body={item.brief}
+                    cta="Read more"
+                    className="h-full"
+                  />
                 </Reveal>
               ))}
             </div>

@@ -62,11 +62,14 @@ export default async function InsightsPage() {
                       </p>
                     </div>
                     <div className="relative mt-10">
-                      <div className="flex flex-wrap gap-x-10 gap-y-4 border-t border-ink-100 pt-6">
+                      <div className="flex flex-wrap gap-2 border-t border-ink-100 pt-6">
                         {caseStudy.metrics.slice(0, 3).map((metric) => (
-                          <div key={metric.label}>
-                            <p className="font-display text-lg text-ink-900">{metric.value}</p>
-                            <p className="mt-1 text-[11px] uppercase tracking-[0.16em] text-ink-400">
+                          <div
+                            key={metric.label}
+                            className="rounded-xl bg-brand-50 px-4 py-2.5 ring-1 ring-inset ring-brand-100"
+                          >
+                            <p className="font-display text-lg text-brand-800">{metric.value}</p>
+                            <p className="mt-0.5 text-[11px] uppercase tracking-[0.16em] text-brand-600/70">
                               {metric.label}
                             </p>
                           </div>

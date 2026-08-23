@@ -82,11 +82,11 @@ export default async function CaseStudyDetailPage({
 
           {caseStudy.metrics.length > 0 && (
             <Reveal>
-              <div className="mb-20 grid gap-px overflow-hidden rounded-2xl border border-ink-100 bg-ink-100 sm:grid-cols-3">
+              <div className="mb-20 grid gap-px overflow-hidden rounded-2xl border border-brand-100 bg-brand-100 sm:grid-cols-3">
                 {caseStudy.metrics.map((metric) => (
-                  <div key={metric.label} className="bg-paper-dim px-8 py-10">
-                    <p className="font-display text-3xl text-ink-900">{metric.value}</p>
-                    <p className="mt-3 text-[11px] uppercase tracking-[0.18em] text-ink-400">
+                  <div key={metric.label} className="bg-brand-50 px-8 py-10">
+                    <p className="font-display text-3xl text-brand-800">{metric.value}</p>
+                    <p className="mt-3 text-[11px] uppercase tracking-[0.18em] text-brand-600/70">
                       {metric.label}
                     </p>
                   </div>

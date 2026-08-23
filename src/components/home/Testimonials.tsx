@@ -28,14 +28,15 @@ export function Testimonials({ testimonials }: { testimonials: TestimonialView[]
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {testimonials.slice(0, 3).map((testimonial, index) => (
             <Reveal key={`${testimonial.clientName}-${testimonial.company}`} delay={index * 0.08}>
-              <figure className="group relative flex h-full flex-col justify-between overflow-hidden rounded-2xl border border-ink-100 bg-paper p-8 shadow-[0_1px_2px_rgba(26,22,19,0.04),0_12px_32px_-16px_rgba(26,22,19,0.1)] transition-all duration-500 hover:-translate-y-1 hover:border-brand-200 hover:shadow-[0_1px_2px_rgba(26,22,19,0.04),0_28px_56px_-20px_rgba(139,26,58,0.22)]">
+              <figure className="group relative flex h-full flex-col justify-between overflow-hidden rounded-2xl border border-ink-100 bg-gradient-to-b from-paper to-paper-dim/60 p-8 shadow-[0_1px_2px_rgba(26,22,19,0.04),0_12px_32px_-16px_rgba(26,22,19,0.1)] transition-all duration-500 hover:-translate-y-1 hover:border-brand-200 hover:shadow-[0_1px_2px_rgba(26,22,19,0.04),0_28px_56px_-20px_rgba(139,26,58,0.22)]">
+                <span className="pointer-events-none absolute inset-x-0 top-0 h-[3px] bg-gradient-to-r from-brand-500 via-brand-600 to-gilt-500" />
                 <Quote
                   className="absolute -right-2 -top-2 h-20 w-20 text-brand-50"
                   strokeWidth={0}
                   fill="currentColor"
                 />
                 <div className="relative">
-                  <div className="flex gap-1 text-brand-600">
+                  <div className="flex gap-1 text-gilt-500">
                     {Array.from({ length: testimonial.rating }).map((_, starIndex) => (
                       <Star key={starIndex} className="h-3.5 w-3.5 fill-current" />
                     ))}
@@ -44,13 +45,18 @@ export function Testimonials({ testimonials }: { testimonials: TestimonialView[]
                     &ldquo;{testimonial.quote}&rdquo;
                   </blockquote>
                 </div>
-                <figcaption className="relative mt-8 border-t border-ink-100 pt-5">
-                  <p className="text-sm font-medium text-ink-900">{testimonial.clientName}</p>
-                  {(testimonial.role || testimonial.company) && (
-                    <p className="mt-1 text-xs uppercase tracking-[0.16em] text-ink-400">
-                      {[testimonial.role, testimonial.company].filter(Boolean).join(", ")}
-                    </p>
-                  )}
+                <figcaption className="relative mt-8 flex items-center gap-3 border-t border-ink-100 pt-5">
+                  <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand-600 to-brand-800 text-sm font-medium text-paper shadow-[0_6px_16px_-6px_rgba(139,26,58,0.5)]">
+                    {testimonial.clientName.charAt(0)}
+                  </span>
+                  <div>
+                    <p className="text-sm font-medium text-ink-900">{testimonial.clientName}</p>
+                    {(testimonial.role || testimonial.company) && (
+                      <p className="mt-0.5 text-xs uppercase tracking-[0.16em] text-ink-400">
+                        {[testimonial.role, testimonial.company].filter(Boolean).join(", ")}
+                      </p>
+                    )}
+                  </div>
                 </figcaption>
               </figure>
             </Reveal>
