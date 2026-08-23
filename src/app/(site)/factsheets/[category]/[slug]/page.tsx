@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, Mail } from "lucide-react";
 import { PageHeader } from "@/components/shared/PageHeader";
 import { Reveal } from "@/components/shared/Reveal";
+import { FactsheetContent } from "@/components/shared/FactsheetContent";
 import { ContactCTA } from "@/components/home/ContactCTA";
 import {
   getFactsheetBySlug,
@@ -52,7 +53,11 @@ export default async function FactsheetDetailPage({
 
   return (
     <>
-      <PageHeader eyebrow={category.title} lines={[factsheet.title]} />
+      <PageHeader
+        eyebrow={category.title}
+        lines={[factsheet.title]}
+        intro={category.description || undefined}
+      />
 
       <section className="bg-paper py-24">
         <div className="mx-auto max-w-3xl px-6">
@@ -64,14 +69,10 @@ export default async function FactsheetDetailPage({
             All {category.title} factsheets
           </Link>
 
-          {factsheet.body.length > 0 ? (
-            <div className="space-y-6 text-lg leading-relaxed text-ink-600">
-              {factsheet.body.map((paragraph, index) => (
-                <Reveal key={index} delay={index * 0.05}>
-                  <p>{paragraph}</p>
-                </Reveal>
-              ))}
-            </div>
+          {factsheet.body.trim().length > 0 ? (
+            <Reveal>
+              <FactsheetContent html={factsheet.body} />
+            </Reveal>
           ) : (
             <Reveal>
               <div className="rounded-2xl border border-brand-200 bg-brand-50 p-9">

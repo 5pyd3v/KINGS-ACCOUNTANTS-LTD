@@ -6,8 +6,13 @@ export interface IFactsheet extends Document {
   title: string;
   slug: string;
   summary: string;
-  /** Paragraphs of body copy. Empty means the factsheet is a placeholder pending real content. */
-  body: string[];
+  /**
+   * Sanitized HTML body, authored via the admin rich-text (WYSIWYG) editor.
+   * Blockquotes render as a highlighted callout box — for worked examples or
+   * "how we can help" notes. Empty means the factsheet is a placeholder
+   * pending real content.
+   */
+  body: string;
   order: number;
   isActive: boolean;
   createdAt: Date;
@@ -20,7 +25,7 @@ const FactsheetSchema = new Schema<IFactsheet>(
     title: { type: String, required: true, trim: true },
     slug: { type: String, required: true, lowercase: true, trim: true },
     summary: { type: String, default: "", trim: true },
-    body: { type: [String], default: [] },
+    body: { type: String, default: "" },
     order: { type: Number, default: 0 },
     isActive: { type: Boolean, default: true },
   },

@@ -3,6 +3,7 @@ import { dbConnect } from "@/lib/db";
 import { Factsheet } from "@/models";
 import { factsheetSchema } from "@/lib/validation";
 import { slugify } from "@/lib/slugify";
+import { sanitizeFactsheetHtml } from "@/lib/sanitize-html";
 import { parseAdminBody, requireAdmin, handleApiError } from "@/lib/api-helpers";
 
 export async function GET(request: Request) {
@@ -27,6 +28,7 @@ export async function POST(request: Request) {
     const factsheet = await Factsheet.create({
       ...data,
       slug: data.slug?.trim() ? slugify(data.slug) : slugify(data.title),
+      body: data.body ? sanitizeFactsheetHtml(data.body) : "",
     });
     return NextResponse.json({ factsheet }, { status: 201 });
   } catch (caught) {

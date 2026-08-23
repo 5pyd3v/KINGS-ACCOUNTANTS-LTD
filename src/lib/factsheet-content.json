@@ -1,0 +1,737 @@
+{
+  "Capital gains tax": {
+    "summary": "An introduction to how gains made on selling or giving away valuable assets are taxed, and who is required to report them.",
+    "body": [
+      "Capital gains tax applies when you dispose of an asset, whether by sale, gift, or exchange, for more than you originally paid for it. It can affect individuals, trustees and personal representatives on a wide range of assets, from shares and business interests to second properties and valuable personal possessions.",
+      "The amount charged depends on the type of asset, your other income in the year, and any reliefs or exemptions that apply. Careful timing of disposals, use of allowances, and record-keeping of acquisition costs can all make a meaningful difference to the final bill. As the rules and figures are reviewed regularly, it is worth talking to us before any significant disposal."
+    ]
+  },
+  "Capital gains tax and the family home": {
+    "summary": "Explains the relief that normally shields your main residence from capital gains tax, and the circumstances that can restrict it.",
+    "body": [
+      "Most people never think of their home as something that could attract capital gains tax, and in the majority of cases a relief exists to keep the gain on your only or main residence out of tax altogether. This applies for the period the property has genuinely been lived in as your home.",
+      "Problems can arise where part of the home has been let out, used exclusively for business, where there has been a period of absence, or where you own more than one property and have not formally nominated which is your main residence. Getting this wrong can lead to an unexpected tax bill, so advice before selling is sensible."
+    ]
+  },
+  "Inheritance tax - a summary": {
+    "summary": "A general overview of how inheritance tax is charged on an estate at death and on certain gifts made during your lifetime.",
+    "body": [
+      "Inheritance tax is charged primarily on the value of your estate when you die, though certain lifetime gifts can also be brought into account depending on when they were made and to whom. The tax touches property, savings, investments and business assets, making early planning important for many families.",
+      "A range of exemptions and reliefs exist, covering transfers between spouses, gifts to charity, and certain business or agricultural assets, among others. Because the rules interact with wills, trusts and lifetime gifting, and the thresholds are reviewed periodically, we would always recommend a review of your position well before it becomes urgent."
+    ]
+  },
+  "Inheritance tax avoidance - pre-owned assets": {
+    "summary": "Looks at the pre-owned assets rules that can create an income tax charge where you give away an asset but continue to benefit from it.",
+    "body": [
+      "In the past, some people sought to reduce inheritance tax by giving away an asset, such as a house, while carrying on using it as before. Rules were introduced to counter this kind of arrangement, and where they apply they can result in an annual income tax charge on the benefit retained, rather than the gift simply working as intended.",
+      "These provisions are complex and can catch arrangements that were not originally set up with tax avoidance in mind. Anyone who has given away an asset but still uses or benefits from it, whether property, land or other valuable items, should have the position reviewed to understand whether these rules apply and what options exist."
+    ]
+  },
+  "Land and Building Transaction Tax": {
+    "summary": "Covers the tax charged on land and property transactions in Scotland, replacing Stamp Duty Land Tax for Scottish purchases.",
+    "body": [
+      "Land and Buildings Transaction Tax applies to purchases of residential and commercial property and land situated in Scotland. It operates independently of the equivalent taxes in the rest of the UK, with its own bands, rates and reliefs set by Revenue Scotland, so figures applicable elsewhere in the UK cannot simply be carried across.",
+      "Reliefs are available for certain buyers and transaction types, including first-time buyers and some multiple property purchases. Anyone buying or transferring property in Scotland, including as an investment, should confirm how the tax applies to their specific transaction, since the treatment can differ from what is expected under the equivalent English or Welsh rules."
+    ]
+  },
+  "Land Transaction Tax": {
+    "summary": "Explains the tax charged on property and land transactions in Wales, which replaced Stamp Duty Land Tax for Welsh purchases.",
+    "body": [
+      "Land Transaction Tax is payable on the purchase of residential and non-residential property and land in Wales, administered by the Welsh Revenue Authority rather than HMRC. Like its counterparts elsewhere in the UK, it is generally the buyer's responsibility, and applies across a broad range of transaction types.",
+      "The bands, rates and reliefs are set separately from those in England, Scotland and Northern Ireland, so buyers should not assume figures from elsewhere apply. Reliefs exist for certain circumstances, and additional charges can apply to purchases of second homes or investment property, making early advice worthwhile before agreeing a purchase."
+    ]
+  },
+  "Stamp Duty Land Tax": {
+    "summary": "Covers the tax due on property and land purchases in England and Northern Ireland, and how it varies by transaction type.",
+    "body": [
+      "Stamp Duty Land Tax is charged on the purchase of residential and commercial property and land in England and Northern Ireland, and is normally payable by the buyer within a set period after completion. The amount due depends on the price paid, the type of property, and the buyer's individual circumstances.",
+      "Additional charges can apply to purchases of second homes, buy-to-let property, or purchases by companies, while reliefs exist for some first-time buyers and other specific situations. Because rates, bands and reliefs are reviewed at fiscal events, it is important to check the position that applies at the time of your purchase."
+    ]
+  },
+  "Trusts": {
+    "summary": "An introduction to how trusts work, why they are used, and the tax obligations that come with setting one up or acting as a trustee.",
+    "body": [
+      "A trust is a legal arrangement where assets are held by trustees for the benefit of others, and can be used for a range of purposes, from protecting assets for young or vulnerable beneficiaries to succession and estate planning. Different types of trust exist, each with its own rules and typical uses.",
+      "Trusts carry their own tax obligations, potentially including income tax, capital gains tax and inheritance tax charges, along with registration and reporting duties for trustees. Setting up or managing a trust without proper advice can lead to unexpected liabilities, so professional guidance is strongly recommended at every stage."
+    ]
+  },
+  "Business motoring - tax aspects": {
+    "summary": "Looks at how the tax system treats vehicles used for business, covering company cars, vans, and mileage claims for owners and employees.",
+    "body": [
+      "The tax treatment of a vehicle used in a business depends heavily on how it is owned and used. Company cars provided to employees and directors are generally treated as a benefit in kind, while vans and vehicles used mainly for business journeys can be treated differently, affecting both the business and the individual.",
+      "For sole traders and partners, and for employees using their own vehicle for work, mileage-based claims offer a simpler alternative to tracking actual running costs. Choosing the right approach, whether company-owned, leased or privately owned, can have a significant effect on tax efficiency, so it is worth reviewing before acquiring a vehicle."
+    ]
+  },
+  "Capital allowances": {
+    "summary": "Explains how businesses obtain tax relief for money spent on equipment, machinery and certain other capital assets.",
+    "body": [
+      "When a business buys equipment, machinery, or certain other qualifying assets, the cost is not simply deducted from profits in the normal way. Instead, capital allowances provide a structured form of tax relief that spreads or accelerates the deduction depending on the type of asset and the rules in force.",
+      "Various allowances exist covering different categories of expenditure, and the timing and structure of purchases can make a real difference to how quickly relief is obtained. Good record-keeping and forward planning around capital spending, particularly ahead of a year end, can help a business make the most of what is available."
+    ]
+  },
+  "Cash basis for the self-employed": {
+    "summary": "Covers the simplified way of calculating taxable profit based on money actually received and paid, available to many self-employed individuals.",
+    "body": [
+      "The cash basis allows many sole traders and partnerships to calculate their taxable profit based simply on money received and money paid out during the year, rather than using the more complex accruals method that recognises income and expenses when they are earned or incurred.",
+      "This approach can make record-keeping considerably simpler for smaller businesses, though it is not suitable for everyone and carries some restrictions, including how certain expenses and losses are treated. We can help you decide whether the cash basis or traditional accounting is the better fit for your business."
+    ]
+  },
+  "Companies - tax saving opportunities": {
+    "summary": "A general look at legitimate ways limited companies can structure their affairs to manage their overall tax position efficiently.",
+    "body": [
+      "Operating through a limited company brings a range of opportunities to manage tax efficiently, from the timing of income extraction and the balance between salary and dividends, to making the most of available reliefs and allowances on business expenditure and investment.",
+      "Pension contributions, timing of capital purchases, and the structure of remuneration for directors and shareholders can all play a part in an efficient overall strategy. Because company and personal tax positions interact closely, a joined-up review of both is usually the best way to identify genuine savings."
+    ]
+  },
+  "Corporation tax - quarterly instalment payments": {
+    "summary": "Explains the rules that require larger companies to pay corporation tax in instalments during the accounting period rather than after it.",
+    "body": [
+      "Most smaller companies pay their corporation tax in a single amount some months after their accounting period ends. Larger companies, however, are required to pay their liability in quarterly instalments spread across and just after the accounting period, based on an estimate of the tax expected to be due.",
+      "Getting these estimates right matters, since inaccurate payments can lead to interest charges. Companies approaching the size threshold where instalment payments apply should plan ahead, as the change in payment pattern can have a noticeable impact on cash flow if it is not anticipated in advance."
+    ]
+  },
+  "Corporation tax self assessment": {
+    "summary": "Covers how companies calculate, report and pay their own corporation tax liability under the self assessment regime.",
+    "body": [
+      "Under corporation tax self assessment, it is the company's own responsibility to calculate its taxable profits, work out the tax due, and file a return with HMRC within the statutory deadline, rather than waiting for HMRC to issue an assessment.",
+      "This places the burden of accuracy and timeliness firmly on the company and its directors, with penalties and interest for late or incorrect returns. Good bookkeeping throughout the year, along with a clear understanding of filing deadlines, makes the process far less stressful when it comes to submitting the return."
+    ]
+  },
+  "Fixed rate expenses": {
+    "summary": "Looks at the simplified flat-rate deductions available for certain business costs, as an alternative to claiming actual expenditure.",
+    "body": [
+      "Rather than keeping detailed records of every relevant cost, some business expenses, such as use of a vehicle or working from home, can instead be claimed using simplified fixed rates set by HMRC. This can significantly reduce the administrative burden for smaller businesses and the self-employed.",
+      "Fixed rates are not always the most tax-efficient choice, and whether they work out better than claiming actual costs depends on individual circumstances. We can help you compare the two approaches so that you choose the method that genuinely suits your situation, rather than simply the easiest to administer."
+    ]
+  },
+  "Homeworking costs for the self-employed": {
+    "summary": "Explains how self-employed individuals working from home can claim a deduction for the related household costs.",
+    "body": [
+      "Where part of a self-employed person's home is used regularly for business, a proportion of related household costs, such as heating, lighting and other running costs, can usually be claimed against taxable profits. This can be calculated using a simplified flat rate or by apportioning actual costs.",
+      "The right approach depends on how much of the home is used for the business and how often, and getting the calculation right matters both for maximising the deduction and for avoiding complications, such as affecting reliefs on the home if actual costs are apportioned. We can help you choose the best method."
+    ]
+  },
+  "Incorporation": {
+    "summary": "Covers the process and considerations involved in moving a business from sole trader or partnership status into a limited company.",
+    "body": [
+      "Incorporating a business, converting it from a sole trade or partnership into a limited company, can bring benefits including different tax treatment, limited liability protection, and a more formal structure that some clients and lenders prefer. However, it also brings new compliance obligations and costs.",
+      "The transfer of assets, goodwill and contracts into the new company needs careful handling to avoid unexpected tax charges, and the ongoing tax position for the owner as a director and shareholder will differ from that of a sole trader. A full review before incorporating helps ensure it is the right move at the right time."
+    ]
+  },
+  "Off-payroll working and Personal Service Companies": {
+    "summary": "Explains the rules, often known as IR35, that determine how contractors working through their own company should be taxed.",
+    "body": [
+      "Where an individual provides services to a client through their own limited company, often called a personal service company, specific rules determine whether that engagement should be taxed broadly as employment or as genuine self-employment. This depends on the real nature of the working relationship, not simply what the contract says.",
+      "Responsibility for making this determination, and the tax consequences of getting it wrong, can fall on the contractor, an agency, or the end client depending on the circumstances. Given the financial risk involved, both contractors and businesses engaging them should have contracts and working practices properly reviewed."
+    ]
+  },
+  "Research and development": {
+    "summary": "Covers the tax relief available to companies undertaking qualifying research and development work to advance science or technology.",
+    "body": [
+      "Companies carrying out projects that seek to achieve an advance in science or technology, and that involve resolving genuine scientific or technological uncertainty, may be able to claim enhanced tax relief or a cash credit for the associated costs. This applies across a far wider range of industries than many businesses assume.",
+      "Identifying qualifying activity and costs correctly is essential, as HMRC scrutinises claims closely and the rules have tightened in recent years. A well-documented claim, prepared with proper advice, can provide valuable support for innovation, while a poorly evidenced one can create real risk. We can help assess and prepare a robust claim."
+    ]
+  },
+  "The Construction Industry Scheme": {
+    "summary": "Explains how tax is deducted at source from payments to subcontractors in the construction industry, and the obligations this creates.",
+    "body": [
+      "The Construction Industry Scheme requires contractors to deduct money from payments to subcontractors and pass it to HMRC as an advance payment towards the subcontractor's tax and National Insurance. It applies across most construction-related work and brings registration, verification and reporting obligations for contractors.",
+      "Subcontractors can be paid under different deduction rates depending on their registration status, and getting registration and verification right affects cash flow significantly. Both contractors and subcontractors need to understand their obligations under the scheme, as penalties can apply for incorrect returns or failure to register appropriately."
+    ]
+  },
+  "Age discrimination": {
+    "summary": "Covers the legal protection against unfair treatment at work because of a person's age, whether they are younger or older.",
+    "body": [
+      "Age discrimination law protects employees, workers and job applicants from being treated unfairly because of their age, whether that treatment favours younger or older people. It covers recruitment, promotion, training, benefits, redundancy selection and dismissal, among other areas of the employment relationship.",
+      "Unlike some other forms of discrimination, certain age-related treatment can be objectively justified where an employer can show a genuine business reason, but this is a high bar to meet. Employers should ensure policies, from recruitment adverts to retirement conversations, are reviewed to avoid unintended discriminatory practices."
+    ]
+  },
+  "Agency workers regulations": {
+    "summary": "Explains the rights that agency workers build up over time to broadly equal treatment with directly employed staff doing similar work.",
+    "body": [
+      "Agency workers regulations give temporary staff supplied through an agency certain rights in relation to the businesses where they work, including access to some facilities and job vacancy information from day one, and rights to broadly equal treatment on pay and basic working conditions once a qualifying period has been completed.",
+      "Both the agency and the end user business have responsibilities under these regulations, and liability for getting it wrong can be shared between them. Businesses that rely on agency staff should have clear processes for tracking assignment length and ensuring comparable treatment once entitlement is triggered."
+    ]
+  },
+  "Annual leave": {
+    "summary": "Covers employees' statutory entitlement to paid time off work each year, and how it is calculated and managed.",
+    "body": [
+      "Almost all workers are entitled to a minimum amount of paid annual leave, intended to protect health and wellbeing by ensuring regular rest from work. Entitlement is generally calculated in proportion to how much someone works, which matters for part-time, irregular hours, and staff joining or leaving partway through the year.",
+      "Employers need clear policies on how leave is requested, carried over, and paid on termination, along with correct treatment of leave during sickness, family leave, and other absences. Miscalculating entitlement or holiday pay is a common and costly mistake, so having a robust policy and payroll process in place matters."
+    ]
+  },
+  "Dismissal procedures": {
+    "summary": "Looks at the steps an employer should follow when ending someone's employment, to reduce the risk of an unfair dismissal claim.",
+    "body": [
+      "Ending someone's employment fairly requires more than having a good reason; the process followed matters just as much. A fair procedure generally involves investigation, a clear explanation of the concerns, an opportunity for the employee to respond, and a right of appeal, appropriate to the circumstances.",
+      "Failing to follow a reasonable process, even where the underlying reason for dismissal is sound, can expose an employer to a claim for unfair dismissal. Employers should take advice before dismissing any employee, particularly one with longer service, to make sure both the reason and the process will stand up to scrutiny."
+    ]
+  },
+  "Managing absence": {
+    "summary": "Covers how employers can manage and reduce staff absence fairly, balancing support for employees with the needs of the business.",
+    "body": [
+      "Employee absence, whether short-term and frequent or a longer single period, can have a real impact on a business, and needs to be managed consistently and fairly. This starts with a clear absence policy, accurate recording, and regular contact with employees who are off work.",
+      "Return-to-work conversations, trigger points for formal review, and appropriate use of occupational health support all help employers manage absence proportionately, while remaining mindful of obligations towards employees with disabilities or underlying health conditions. Handling this well protects both the business and the employee relationship."
+    ]
+  },
+  "National Minimum Wage": {
+    "summary": "Explains the legal requirement to pay workers at least a minimum hourly rate, and the common pitfalls employers should avoid.",
+    "body": [
+      "Almost all workers are legally entitled to be paid at least the National Minimum Wage for the hours they work, with different rates applying depending on age and status. Employers are responsible for ensuring pay meets the correct rate, and for keeping adequate records to demonstrate compliance.",
+      "Common pitfalls include unpaid working time such as travel or training, deductions that reduce pay below the minimum, and incorrectly classifying someone's age band or worker status. Underpayment, even if accidental, can lead to penalties and repayment obligations, so payroll processes should be checked regularly against current rules."
+    ]
+  },
+  "Recruitment procedures - employment law": {
+    "summary": "Covers the legal considerations employers should be aware of at each stage of recruiting new staff, from adverts to offers.",
+    "body": [
+      "Recruitment is subject to a range of legal considerations from the very first job advert through to making an offer, including discrimination law, data protection when handling applications, and right to work checks. Getting this wrong at any stage can create legal risk before someone has even joined the business.",
+      "Well-drafted job descriptions, structured and consistent interview processes, and clear record-keeping all help demonstrate fair treatment of candidates and reduce the risk of a discrimination claim. Employers should review their recruitment process periodically to ensure it keeps pace with current legal requirements."
+    ]
+  },
+  "Recruitment procedures - seven steps for good procedures": {
+    "summary": "A practical, step-by-step framework employers can follow to run a fair, effective and well-documented recruitment process.",
+    "body": [
+      "Good recruitment does not happen by accident; it benefits from a structured approach covering each stage of the process, from defining the role and person specification, through advertising and shortlisting, to interviewing, selection, and making an offer, with proper checks completed before someone starts.",
+      "Following a consistent, documented process at each of these stages helps employers select the right candidate, treat all applicants fairly, and reduce the risk of later disputes about how a decision was reached. A clear procedure also makes it easier to train managers who are involved in hiring."
+    ]
+  },
+  "Redundancy procedures": {
+    "summary": "Explains the fair process employers must follow when reducing headcount due to a genuine reduction in the need for certain roles.",
+    "body": [
+      "Redundancy arises where there is a genuine reduction in the need for employees to carry out work of a particular kind, rather than being about the performance of the individual. A fair process typically involves a clear rationale, a fair selection method, meaningful consultation, and consideration of suitable alternative roles.",
+      "Getting the process wrong, even where the underlying business case for redundancy is genuine, can expose an employer to unfair dismissal claims. Employers should also be aware of additional collective consultation obligations that can apply where a larger number of redundancies is proposed within a short period."
+    ]
+  },
+  "Statutory sick, maternity and paternity pay": {
+    "summary": "Covers the minimum pay employers must provide to eligible employees during sickness, maternity, and paternity absence.",
+    "body": [
+      "Employees who meet the qualifying conditions are entitled to statutory payments during periods of sickness, maternity, and paternity absence, funded in the first instance by the employer and, in many cases, recoverable in part through the payroll system. Eligibility depends on factors such as length of service and average earnings.",
+      "Employers need accurate payroll records to identify entitlement correctly and to claim any recovery available, along with clear policies covering notification and evidence requirements. Getting statutory pay wrong, whether by underpaying or missing recovery opportunities, is a common and avoidable payroll error."
+    ]
+  },
+  "Cars for employees": {
+    "summary": "Explains how providing company cars to employees creates tax and National Insurance implications for both the business and the individual.",
+    "body": [
+      "When a business provides a car to an employee for private use, this is treated as a benefit in kind and creates a tax charge for the employee, alongside employer National Insurance obligations. The value of the benefit is influenced by factors such as the vehicle's list price, its CO2 emissions, and the type of fuel it uses, with lower-emission vehicles generally attracting more favourable treatment.",
+      "Many businesses now weigh up the tax efficiency of providing a car against alternatives such as a cash allowance or mileage payments for an employee's own vehicle. The right choice depends on individual circumstances, usage patterns and how the vehicle is used for business versus private journeys. Because the rules and rates change regularly, we can help you compare the options and structure things tax-efficiently."
+    ]
+  },
+  "Employee Expenses": {
+    "summary": "Covers how businesses can reimburse employees for costs incurred doing their job, and the tax treatment of different expense types.",
+    "body": [
+      "Employees often incur costs while carrying out their duties, such as travel, subsistence or equipment, and employers can reimburse these without necessarily triggering a tax charge, provided the expense is wholly, exclusively and necessarily for business purposes. Keeping clear records and receipts is essential to demonstrate that reimbursements meet the qualifying conditions and to support the figures if HMRC ever asks questions.",
+      "Where expenses don't meet the strict business-only test, or where round-sum allowances are paid instead of reimbursing actual costs, a tax and National Insurance liability can arise for the employee, along with reporting obligations for the employer. Having a clear, consistently applied expenses policy reduces the risk of errors, and we're happy to help you set one up."
+    ]
+  },
+  "Employer supported childcare": {
+    "summary": "Looks at how employers can help staff with childcare costs and the tax-efficient schemes available for doing so.",
+    "body": [
+      "Supporting employees with childcare can be a valuable recruitment and retention tool, and there are established routes for employers to contribute towards these costs in a tax-efficient way. Historically this has included employer-run schemes and childcare voucher arrangements, though the government's own tax-free childcare scheme now sits alongside these as an option for many families.",
+      "The rules around which schemes remain open to new entrants, and how they interact with other benefits an employee may receive, can be complex and depend on when an employee joined a scheme. If you're considering introducing or reviewing childcare support for your team, we can talk you through what's currently available and how to implement it correctly."
+    ]
+  },
+  "Employment benefits": {
+    "summary": "An overview of non-cash perks employers can offer staff and how these benefits are typically treated for tax purposes.",
+    "body": [
+      "Beyond salary, many employers offer additional benefits such as private medical insurance, gym memberships, life assurance or other perks designed to attract and retain staff. Most benefits in kind have a taxable value that needs to be reported to HMRC, and both the employer and employee may face additional liabilities as a result of providing them.",
+      "Some benefits are structured to be more tax-efficient than others, and the way a benefit is provided, funded or made available to staff can significantly affect its treatment. Getting the reporting right, typically through payroll or an annual return, is essential to avoid penalties. We can help you design a benefits package that works for your business and your people."
+    ]
+  },
+  "Homeworking and tax relief for employees": {
+    "summary": "Explains what tax relief may be available to employees who work from home and what employers can reimburse tax-free.",
+    "body": [
+      "With homeworking now common, many employees ask whether they can claim tax relief for the additional costs of working from their own home, such as heating and electricity. Relief is generally only available where homeworking is a genuine requirement of the job rather than simply a personal preference, and there are set ways of calculating or claiming it.",
+      "Employers can also choose to reimburse certain homeworking costs directly to staff, which can often be done without creating a tax charge, provided the arrangement meets the relevant conditions. Getting this right benefits both parties, and we can advise on the most tax-efficient way to support home-based staff, whether through direct payments or claims made by the employee."
+    ]
+  },
+  "National insurance": {
+    "summary": "Explains the different classes of National Insurance and how they affect employers, employees and the self-employed.",
+    "body": [
+      "National Insurance contributions are paid by employees, employers and the self-employed, and go towards funding state benefits including the state pension. Different classes apply depending on employment status and earnings, and employers have specific responsibilities for calculating, deducting and paying contributions on behalf of their staff through payroll each period.",
+      "Employer National Insurance is a genuine cost of employing staff and providing certain benefits, so it's a factor worth considering when planning remuneration, recruitment or benefit packages. Reliefs and allowances exist that can reduce the employer burden in some circumstances. As rates and thresholds change frequently, we keep on top of the detail so you don't have to."
+    ]
+  },
+  "Payroll - basic procedures": {
+    "summary": "Sets out the core steps involved in running a compliant payroll, from registering as an employer to paying staff correctly.",
+    "body": [
+      "Running payroll involves far more than simply paying wages. Employers must register with HMRC, calculate gross pay, apply the correct tax and National Insurance deductions, account for pension contributions where relevant, and issue payslips. Accuracy and timeliness matter, both for compliance and for maintaining trust with your team.",
+      "Payroll also needs to keep pace with changes in an employee's circumstances, such as new starters, leavers, changes in hours, or statutory payments like sick pay or parental leave. Many businesses choose to outsource payroll to ensure it's handled correctly and on time every period. We offer a full payroll service that takes this burden off your hands."
+    ]
+  },
+  "Payroll Real Time Information": {
+    "summary": "Explains the requirement for employers to report payroll information to HMRC on or before each payday.",
+    "body": [
+      "Real Time Information, commonly known as RTI, requires employers to submit details of pay and deductions to HMRC electronically each time they run payroll, rather than waiting until the end of the tax year. This gives HMRC an up-to-date picture of an individual's earnings and tax position throughout the year.",
+      "Meeting RTI deadlines is a legal requirement, and late or inaccurate submissions can lead to penalties. It also means payroll errors are visible to HMRC more quickly, so accuracy at the point of processing matters more than ever. Our payroll service ensures your RTI submissions are made correctly and on time, every time."
+    ]
+  },
+  "Share ownership for employees - EMI": {
+    "summary": "Introduces Enterprise Management Incentive schemes, a tax-advantaged way for qualifying small and medium businesses to offer share options to key staff.",
+    "body": [
+      "Enterprise Management Incentive (EMI) schemes allow qualifying smaller companies to grant share options to employees in a way designed to be tax-efficient for both parties, provided a range of conditions around the company, the employee and the scheme structure are satisfied. It's a popular tool for attracting and retaining key talent without an immediate cash cost.",
+      "Setting up an EMI scheme correctly involves company valuations, HMRC notification, and carefully drafted option agreements, so professional advice at the outset is important to secure the intended tax treatment. If you're thinking about incentivising your team through share options, we can guide you through eligibility and the practical steps involved."
+    ]
+  },
+  "Travel and subsistence for Directors and employees": {
+    "summary": "Covers the tax rules determining when travel and subsistence costs incurred by directors and staff can be claimed tax-free.",
+    "body": [
+      "Whether travel and subsistence costs can be paid or reimbursed tax-free generally depends on whether the journey counts as ordinary commuting or genuine business travel. Travel to a permanent workplace is usually treated as commuting and isn't allowable, whereas travel to temporary workplaces or between business sites is typically treated differently.",
+      "Directors in particular need to be careful, as their pattern of travel and the location of their normal workplace can make the rules harder to apply. Getting this wrong can lead to unexpected tax charges or disallowed claims. We can help you determine what's claimable and set up a policy that keeps things straightforward for everyone."
+    ]
+  },
+  "Bribery Act 2010": {
+    "summary": "Explains the UK's anti-bribery legislation and the obligation on businesses to have adequate procedures in place to prevent bribery.",
+    "body": [
+      "The Bribery Act 2010 makes it a criminal offence to give, offer, request or accept a bribe, and it applies broadly across UK businesses regardless of size or sector. Notably, a company can be held liable if someone associated with it commits bribery on its behalf, even without the company's knowledge or involvement.",
+      "The main defence available to a business is having adequate procedures in place designed to prevent bribery, such as a clear policy, risk assessments, training and due diligence on third parties. Even small businesses benefit from having something in place proportionate to their size and risk. We can point you towards practical steps to help demonstrate compliance."
+    ]
+  },
+  "Company secretarial duties": {
+    "summary": "Outlines the ongoing administrative and filing responsibilities that come with running a limited company in the UK.",
+    "body": [
+      "Operating as a limited company brings a set of statutory obligations beyond simply filing accounts, including maintaining statutory registers, filing a confirmation statement, and notifying Companies House of changes such as new directors, share transfers or a change of registered office. These duties fall on the company's officers, typically the directors.",
+      "Missing deadlines or failing to keep records up to date can lead to penalties or, in serious cases, action against the company itself. Many businesses find it easier to have these responsibilities managed by their accountant alongside their annual compliance work, ensuring nothing slips through the cracks. We offer company secretarial support as part of our services."
+    ]
+  },
+  "Criminal Finances Act 2017": {
+    "summary": "Explains the corporate offence of failing to prevent the facilitation of tax evasion and what businesses need to do to protect themselves.",
+    "body": [
+      "The Criminal Finances Act 2017 introduced a corporate criminal offence for failing to prevent employees or associated persons from facilitating tax evasion, whether the evasion relates to UK or overseas tax. Unlike many offences, a business can be liable even if senior management had no knowledge the facilitation was taking place.",
+      "The main defence is having reasonable prevention procedures in place, reflecting the specific risks a business faces. This typically involves a risk assessment, a clear policy, staff training and ongoing monitoring. Businesses of all sizes can be affected, so it's worth reviewing what safeguards you currently have and where any gaps might exist."
+    ]
+  },
+  "Directors' responsibilities": {
+    "summary": "Summarises the legal duties company directors owe to their company, shareholders and, in some circumstances, creditors.",
+    "body": [
+      "Being a director carries a set of legal duties, including acting within the company's powers, promoting its success, exercising independent judgement and reasonable care, avoiding conflicts of interest, and not accepting benefits from third parties. These duties apply whether a director is actively involved day to day or more hands-off in practice.",
+      "Directors also carry financial reporting and filing responsibilities, and where a company runs into financial difficulty, their focus must shift towards protecting creditors' interests. Breaching these duties can carry personal consequences in some circumstances, so understanding what's expected matters from day one. We help directors stay on top of their compliance obligations throughout the year."
+    ]
+  },
+  "Franchising": {
+    "summary": "Looks at the financial and accounting considerations involved in buying into or running a franchise business.",
+    "body": [
+      "Franchising offers a route into business ownership using an established brand, systems and support, but it comes with its own financial structure, including upfront fees, ongoing royalties and marketing contributions that need to be factored into any business plan. Understanding the full cost of the franchise agreement is essential before committing.",
+      "Once trading, franchisees still need robust bookkeeping, management accounts and tax planning, often working within reporting requirements set by the franchisor as well as their normal statutory obligations. We work with a number of franchise businesses and can help you assess the numbers behind an opportunity or manage the ongoing finances once you're trading."
+    ]
+  },
+  "Fraud and how to spot it - ten step guide": {
+    "summary": "Practical pointers to help business owners recognise the warning signs of fraud and put safeguards in place.",
+    "body": [
+      "Fraud can come from outside a business, such as scams and false invoicing, or from within, through manipulated records or misused authority. Warning signs often include unexplained discrepancies, reluctance to take holidays, unusually close supplier relationships, or transactions that bypass normal approval processes. Being alert to these patterns is often the first line of defence.",
+      "Simple safeguards make a real difference: separating duties so no one person controls a transaction from start to finish, regularly reconciling accounts, restricting access to financial systems, and encouraging a culture where concerns can be raised. Regular review of controls, rather than a one-off check, is what keeps a business protected as it grows and changes."
+    ]
+  },
+  "Grants": {
+    "summary": "Introduces the various forms of government and local grant funding available to businesses and what to consider before applying.",
+    "body": [
+      "Grant funding can support activities like research and development, job creation, training or capital investment, and is offered by a range of national and local bodies as well as sector-specific schemes. Unlike loans, grants generally don't need to be repaid, though they usually come with conditions about how the money must be used and reported.",
+      "Eligibility criteria, application processes and reporting requirements vary widely between schemes, and competition for funding can be strong. It's worth building any grant income into your wider financial planning, including how it will be treated for accounting and tax purposes. We can help you understand what support might be available and how to present your figures for an application."
+    ]
+  },
+  "Micro Entity Accounting": {
+    "summary": "Explains the simplified accounting and filing regime available to the UK's smallest companies.",
+    "body": [
+      "Micro-entity accounting rules allow the smallest companies, based on turnover, balance sheet and employee thresholds, to prepare and file a simplified set of accounts, reducing the disclosure and formatting requirements compared with the standard small company regime. This can significantly cut the time and cost involved in year-end reporting.",
+      "While the simplified format reduces the burden of public disclosure, the underlying bookkeeping still needs to be accurate and complete, and the accounts still need to give a true and fair view of the company's position. We can advise whether your company qualifies and prepare accounts in whichever format suits your circumstances best."
+    ]
+  },
+  "Preparing for your accountant": {
+    "summary": "Practical guidance on what information and records to have ready ahead of meeting your accountant, to make the process smoother.",
+    "body": [
+      "Having the right records ready before your accounting appointment saves time and often reduces fees. This typically includes bank statements, sales and purchase records, receipts, payroll information, and details of any significant transactions during the period, along with prior correspondence from HMRC or Companies House that might be relevant.",
+      "It also helps to think ahead about questions you want answered, whether that's about tax planning, business performance, or upcoming changes to your circumstances. The more organised your records and the clearer your questions, the more value you'll get from the meeting. We're always happy to advise on the best way to keep records throughout the year."
+    ]
+  },
+  "Register of people with significant control": {
+    "summary": "Explains the requirement for UK companies to identify and record individuals who ultimately own or control the business.",
+    "body": [
+      "Most UK companies must maintain a register identifying people with significant control, commonly known as PSCs, which typically means anyone holding a significant share of voting rights or shares, or who otherwise exercises significant influence over the company. This information also needs to be filed with Companies House and kept up to date.",
+      "The rules are designed to increase transparency around company ownership and help prevent misuse of corporate structures. Failing to maintain an accurate register or notify changes promptly can result in penalties. We can help you determine who needs to be recorded and ensure your filings stay current."
+    ]
+  },
+  "Running a limited company": {
+    "summary": "A broad overview of the ongoing obligations and considerations involved in operating a UK limited company.",
+    "body": [
+      "Running a limited company involves balancing day-to-day trading with a set of statutory obligations, including maintaining proper accounting records, filing annual accounts and a confirmation statement, and meeting tax obligations for both the company and its directors. The company is a separate legal entity from its owners, which brings both protection and responsibility.",
+      "Beyond compliance, running a company well means keeping on top of cash flow, understanding your numbers, and planning ahead for tax and growth. Many directors find real value in having an accountant as an ongoing sounding board rather than just at year end. We support company owners with everything from compliance to strategic planning throughout the year."
+    ]
+  },
+  "Securing business success": {
+    "summary": "Looks at the financial disciplines and planning habits that help businesses build resilience and achieve sustainable growth.",
+    "body": [
+      "Long-term business success tends to rest on a few consistent habits: understanding your numbers, managing cash flow carefully, setting realistic budgets, and reviewing performance regularly rather than only at year end. Businesses that treat financial information as a decision-making tool, rather than just a compliance requirement, are generally better placed to spot problems and opportunities early.",
+      "Planning ahead for tax, investment and succession also plays a significant part in building a resilient business. Working with an accountant throughout the year, rather than just when the annual accounts are due, gives you the insight needed to make informed decisions. We aim to be a genuine partner in helping your business succeed."
+    ]
+  },
+  "Small Company Accounting": {
+    "summary": "Explains the accounting and filing framework available to small companies in the UK and what qualifies a company for it.",
+    "body": [
+      "Companies that meet the relevant thresholds for turnover, balance sheet total and employee numbers can qualify as small, allowing them to prepare accounts under a less onerous framework than larger companies, with reduced disclosure requirements and, in many cases, an exemption from statutory audit. This helps keep compliance costs proportionate to the size of the business.",
+      "Even with simplified reporting, small companies still need accurate underlying records and accounts that fairly represent their financial position. Choosing the right accounting framework, and understanding what it does and doesn't require you to disclose, is something we can guide you through as part of your annual accounts preparation."
+    ]
+  },
+  "Valuing your business": {
+    "summary": "Introduces the common approaches used to value a business and when you might need a formal valuation.",
+    "body": [
+      "Business valuations are needed for a range of reasons, including sale or purchase negotiations, raising investment, share transfers, divorce proceedings, or succession and inheritance tax planning. Different methods exist, from valuing based on a multiple of earnings, to asset-based approaches, to comparisons with similar businesses that have recently changed hands, and the right method depends on the type of business and purpose.",
+      "Valuation is part art and part science, and the figure produced often needs to be defensible to third parties such as buyers, investors or HMRC. If you're considering a sale, raising finance or planning for succession, getting an informed view of your business's worth early gives you a much stronger position to plan from."
+    ]
+  },
+  "Bring your own device": {
+    "summary": "Looks at the policy and security considerations businesses face when allowing staff to use personal devices for work.",
+    "body": [
+      "Allowing employees to use their own phones, tablets or laptops for work, commonly known as BYOD, can reduce equipment costs and increase flexibility, but it also blurs the line between personal and business data. Without clear rules, sensitive business information can end up stored, backed up or shared in ways the business has no control over.",
+      "A good BYOD policy sets out what's permitted, minimum security requirements such as passcodes and encryption, how business data is kept separate from personal use, and what happens to that data if an employee leaves or a device is lost. Getting this right protects both the business and its clients, and is worth revisiting as technology evolves."
+    ]
+  },
+  "Data security - access": {
+    "summary": "Covers how businesses control who can see, use or change sensitive information, and why access controls matter.",
+    "body": [
+      "Controlling access to data means ensuring people can only see and use the information they genuinely need for their role, rather than everyone having free access to everything. This typically involves user accounts with individual logins, permission levels tailored to job function, and processes for granting and removing access as people join, move within, or leave the business.",
+      "Weak access controls are one of the most common causes of data breaches, whether through simple human error or deliberate misuse. Regularly reviewing who has access to what, particularly for former employees, and using strong authentication where possible, significantly reduces the risk. It's a foundational element of good data security that's often overlooked."
+    ]
+  },
+  "Data security - cloud and outsourcing": {
+    "summary": "Explains the additional data security considerations that arise when using cloud services or third-party providers to handle business data.",
+    "body": [
+      "Using cloud software or outsourcing functions such as payroll or IT support can bring real efficiency benefits, but it also means business data is being held or processed by a third party. It's important to understand where data is stored, how it's protected, and what contractual assurances the provider gives around security and confidentiality.",
+      "Before signing up to a new cloud service or outsourcing arrangement, it's worth checking the provider's security credentials, data processing agreements, and what happens to your data if the relationship ends. Ultimately, responsibility for protecting the data usually remains with your business, even when a third party is handling it day to day."
+    ]
+  },
+  "Data security - backup": {
+    "summary": "Explains why regular, tested backups are essential and what a sound backup strategy for a business typically looks like.",
+    "body": [
+      "Backups protect a business against data loss caused by hardware failure, accidental deletion, cyberattack or disaster. A sound approach usually involves keeping multiple copies of important data, stored in more than one location, including at least one copy kept separate from the main systems so it isn't affected by the same incident.",
+      "Having backups isn't enough on its own; they need to be tested regularly to confirm data can actually be restored when needed. Many businesses discover gaps in their backup arrangements only after something has gone wrong. Building in regular checks, and reviewing what data is covered as your business grows, helps ensure backups do their job when it matters."
+    ]
+  },
+  "Data security - data loss risk reduction": {
+    "summary": "Looks at practical steps businesses can take to reduce the risk of losing sensitive or important data.",
+    "body": [
+      "Data loss can happen in many ways, from a lost laptop or phishing email to simple human error or equipment failure. Reducing the risk starts with understanding what data you hold, where it's stored, and who has access to it, so you can apply proportionate protections such as encryption, secure passwords and staff awareness training.",
+      "Ongoing vigilance matters as much as initial setup: keeping software updated, restricting removable storage devices where appropriate, and having a clear incident response plan all reduce both the likelihood and impact of data loss. Treating data security as a continuous process, rather than a one-off task, is key to keeping pace with evolving risks."
+    ]
+  },
+  "Data Security – Data Protection Regulatory Framework": {
+    "summary": "Introduces the legal framework of UK GDPR and the Data Protection Act 2018, and the core principles businesses must follow.",
+    "body": [
+      "UK GDPR and the Data Protection Act 2018 together set out the legal framework businesses must follow when handling personal data, whether about customers, employees or suppliers. The framework is built around core principles including using data lawfully and transparently, collecting only what's needed, keeping it accurate and secure, and not holding it for longer than necessary.",
+      "Businesses that determine how and why personal data is processed take on specific legal responsibilities under this framework, including being accountable for demonstrating compliance. Understanding these principles is the starting point for handling data properly, and the framework applies to businesses of every size, not just large organisations. We can point you towards the areas most relevant to your business."
+    ]
+  },
+  "Data Security – Data Protection Regulation - Ensuring Compliance": {
+    "summary": "Focuses on the practical steps a business can take day to day to comply with UK data protection law.",
+    "body": [
+      "Turning data protection principles into practice involves concrete steps such as maintaining a record of what personal data you hold and why, having a clear privacy notice for customers and staff, putting data processing agreements in place with third parties, and training staff on how to handle personal data safely.",
+      "Ongoing compliance also means being ready to respond to individuals exercising their rights, such as requests to see or delete their data, and having a plan in place for responding to a data breach if one occurs. Building these practices into everyday operations, rather than treating them as a one-off exercise, is what keeps a business genuinely compliant over time."
+    ]
+  },
+  "Internet and email access policy": {
+    "summary": "Looks at why businesses benefit from a clear policy governing staff use of the internet and email at work.",
+    "body": [
+      "An internet and email policy sets out what's acceptable use of company systems, covering areas such as personal use during work hours, appropriate content, use of social media, and expectations around confidentiality when communicating by email. Having this in writing helps staff understand what's expected and gives the business a clear basis for addressing misuse.",
+      "The policy also plays a role in protecting the business from risks such as malware, phishing and data leaks, by setting out rules on suspicious links, attachments and approved software. Reviewing the policy periodically, and reinforcing it through staff training, helps ensure it keeps pace with new technology and emerging threats."
+    ]
+  },
+  "Occupational pension schemes: trustees' responsibilities": {
+    "summary": "Explains the legal duties trustees of workplace pension schemes owe to members, covering governance, investment and record-keeping.",
+    "body": [
+      "Trustees appointed to run an occupational pension scheme take on a genuine position of trust and responsibility. Their duties include acting in the best interests of members, making sure scheme assets are properly invested and safeguarded, keeping accurate records and accounts, and ensuring the scheme is administered in line with its rules and current pensions legislation.",
+      "Because trustees remain personally accountable even where day-to-day administration is outsourced, good governance and clear processes matter enormously. We work with trustees and scheme sponsors to review documentation, support annual reporting and audit requirements, and help ensure the scheme stands up to scrutiny from members and the Pensions Regulator alike."
+    ]
+  },
+  "Pensions - automatic enrolment": {
+    "summary": "Outlines the employer duty to automatically enrol eligible staff into a workplace pension and contribute towards it.",
+    "body": [
+      "Employers have a legal duty to assess their workforce and automatically enrol eligible staff into a qualifying workplace pension scheme, contributing alongside the employee unless the individual chooses to opt out. The rules apply from the point someone becomes an employer and continue for as long as eligible staff are employed, with ongoing assessment required as circumstances change.",
+      "Getting automatic enrolment wrong, whether through late enrolment, incorrect assessment or missed contributions, can lead to regulatory penalties as well as unhappy staff. We help employers set up compliant payroll processes, handle re-enrolment duties, and keep on top of a framework where contribution levels and thresholds are reviewed regularly, so do speak to us for current guidance."
+    ]
+  },
+  "Pensions - tax reliefs": {
+    "summary": "Explains how tax relief on pension contributions works and the limits that can restrict how much relief is available.",
+    "body": [
+      "Contributing to a registered pension scheme generally attracts tax relief, which is one of the main incentives for saving towards retirement. Relief is usually given either by the pension provider claiming it on the member's behalf or through payroll deduction before tax is calculated, depending on how the scheme operates, effectively reducing the real cost of saving.",
+      "There are, however, limits on how much can be contributed while still benefiting from relief, and these can be affected by earnings, existing pension savings and, for higher earners, tapering rules. Unused allowance from previous years can sometimes be carried forward. Because the figures and rules are reviewed frequently, it is worth checking your position with us before making large contributions."
+    ]
+  },
+  "Pensions - tax treatment on death": {
+    "summary": "Sets out how pension funds are typically treated for tax purposes when a scheme member dies.",
+    "body": [
+      "What happens to a pension when the holder dies depends on the type of scheme, the member's age at death, and who is nominated to receive the benefits. Defined contribution pots can often be passed to chosen beneficiaries relatively flexibly, while defined benefit schemes typically pay according to fixed rules, sometimes including a spouse's or dependant's pension.",
+      "Pension death benefits generally sit outside the member's estate for inheritance tax purposes, which makes pensions a valuable part of estate planning, though the tax treatment of any income drawn by beneficiaries can vary. Keeping expression of wish or nomination forms up to date is essential, and we can help review your arrangements as part of wider succession planning."
+    ]
+  },
+  "Charitable giving": {
+    "summary": "Covers the main ways individuals can give tax-efficiently to charity, including payroll giving, Gift Aid and gifts of assets.",
+    "body": [
+      "Giving to charity can be structured in several tax-efficient ways, including Gift Aid, which allows charities to reclaim tax on donations and can also benefit higher-rate taxpayers, payroll giving schemes operated through an employer, and gifts of shares, land or property, which can attract their own reliefs. Each route has different record-keeping and eligibility requirements.",
+      "Choosing the right method depends on your circumstances, how you want to give, and whether you want the relief to benefit you, the charity, or both. We can help you plan charitable giving so it is structured efficiently, properly documented, and reflected correctly on your self assessment return where relevant."
+    ]
+  },
+  "Child Benefit charge": {
+    "summary": "Explains the tax charge that can claw back Child Benefit where a higher-earning household member's income exceeds a threshold.",
+    "body": [
+      "Child Benefit is paid to families with children, but where one partner in the household has income above a set threshold, some or all of the benefit can be clawed back through a tax charge, known as the High Income Child Benefit Charge. This applies to the higher earner personally, regardless of whose name the benefit is claimed in.",
+      "The charge can catch people by surprise, particularly where income fluctuates, bonuses are received, or a partner is unaware Child Benefit is being claimed at all. It can usually be managed through self assessment, and there are sometimes ways to reduce the impact through pension contributions or other planning. We can review your position and help you decide whether to keep claiming."
+    ]
+  },
+  "Dividends and interest": {
+    "summary": "Explains how income from dividends and savings interest is taxed differently from earnings and other income.",
+    "body": [
+      "Dividend income from shares and interest earned on savings are taxed separately from earnings, each with their own allowances and rates that sit alongside the main income tax bands. How much tax you pay depends on your total income, the type of account or investment, and whether the income is received personally or through a company.",
+      "For business owners taking a mix of salary and dividends, and for savers holding investments outside tax-efficient wrappers, understanding how these income types interact with your overall tax position is important for planning. Because allowances and rates are reviewed at each Budget, we recommend checking your specific position with us rather than relying on previous years' figures."
+    ]
+  },
+  "Enterprise Investment Scheme": {
+    "summary": "Outlines how the Enterprise Investment Scheme offers tax incentives to individuals investing in qualifying early-stage companies.",
+    "body": [
+      "The Enterprise Investment Scheme is a government initiative designed to encourage investment in smaller, higher-risk trading companies by offering investors a range of tax reliefs, including income tax relief on the amount invested, potential capital gains tax deferral, and favourable treatment on eventual disposal, provided the shares and company meet the qualifying conditions.",
+      "Because the reliefs are generous, the qualifying rules are correspondingly strict, covering the type of company, how long shares must be held, and the investor's relationship to the business. Getting the structure wrong can mean reliefs are denied or clawed back later. We can help both investors and companies seeking EIS investment navigate the qualifying requirements."
+    ]
+  },
+  "Individual Savings Accounts": {
+    "summary": "Explains how ISAs let individuals save or invest with returns generally free of income tax and capital gains tax.",
+    "body": [
+      "Individual Savings Accounts, or ISAs, are a tax-efficient wrapper for cash savings or investments, meaning interest, dividends and gains held within them are generally free from income tax and capital gains tax. There are several types, including cash ISAs, stocks and shares ISAs, and Lifetime ISAs, each suited to different savings goals and risk appetites.",
+      "There is an annual limit on how much can be paid in across all ISAs held, and rules around transfers, withdrawals and combining accounts can catch people out. ISAs remain one of the simplest tax-efficient savings tools available to individuals, and we are happy to talk through how they fit into your wider financial and tax planning."
+    ]
+  },
+  "Making Tax Digital for Individuals": {
+    "summary": "Explains the shift towards digital record-keeping and quarterly reporting for individuals with income tax obligations.",
+    "body": [
+      "Making Tax Digital is HMRC's ongoing programme to move tax administration online, requiring digital record-keeping and the use of compatible software rather than paper records or spreadsheets alone. For individuals, this increasingly applies to those with income from self-employment or property, extending obligations that already apply to VAT-registered businesses.",
+      "Under the regime, affected individuals will generally need to keep digital records and submit updates to HMRC more frequently than the traditional annual return. Preparing early, choosing suitable software and understanding whether and when you fall within scope makes the transition far smoother. We can assess your position and help you get compliant software and processes in place ahead of time."
+    ]
+  },
+  "Non-domiciled individuals": {
+    "summary": "Covers how UK tax treatment can differ for individuals whose permanent home is considered to be outside the UK.",
+    "body": [
+      "Domicile is a general law concept distinct from residence, broadly reflecting the country someone treats as their permanent home, and it has historically affected how UK tax applies to income and gains arising outside the UK. Individuals who are UK resident but not domiciled here have, in the past, been able to access different tax treatment on foreign income, though the rules in this area have been undergoing significant reform.",
+      "This is a genuinely complex and fast-moving area of tax law, with an individual's status depending on personal history, family background and future intentions, and the rules determining what is taxable continuing to change. Anyone with an international background, overseas assets or income arising abroad should seek tailored advice, and we would be glad to help assess your position."
+    ]
+  },
+  "Personal tax - self assessment": {
+    "summary": "Explains who needs to file a self assessment tax return and the obligations that come with it.",
+    "body": [
+      "Self assessment is the system HMRC uses for individuals whose tax affairs are not fully collected through PAYE, including the self-employed, company directors, landlords, and those with significant investment income or capital gains. It requires registering with HMRC, keeping adequate records, and filing an annual return that calculates the tax due for the year.",
+      "Missing deadlines or making errors on a return can lead to penalties and interest, and the record-keeping requirements can feel daunting alongside running a business or managing other income. We handle the whole self assessment process for our clients, from registration and record review through to preparing and filing the return, so you can be confident it is accurate and on time."
+    ]
+  },
+  "Personal tax - when is income tax and capital gains tax payable?": {
+    "summary": "Sets out the general timing rules for when income tax and capital gains tax fall due for payment.",
+    "body": [
+      "Income tax collected through PAYE is generally paid as you earn, but tax due through self assessment follows a different timetable, with a main payment date each year and, for many taxpayers, payments on account made in advance towards the following year's liability. Capital gains tax has its own reporting and payment rules, which can differ depending on the type of asset sold, particularly for residential property.",
+      "Understanding when payments fall due, and planning cash flow around them, helps avoid the interest and penalties that follow late payment. Payment dates and reporting windows are set by HMRC and reviewed periodically, so we always confirm current deadlines with clients as part of preparing their returns and advise on how to plan ahead for what is owed."
+    ]
+  },
+  "Property investment - buy to let": {
+    "summary": "Covers the practical and tax considerations involved in owning residential property as a buy-to-let investment.",
+    "body": [
+      "Buy-to-let investment involves purchasing residential property to let out for rental income, and it comes with its own set of tax and practical considerations, from how rental profits are taxed and what expenses can be deducted, to how mortgage interest is treated and whether property is held personally or through a company.",
+      "The right ownership structure can make a meaningful difference to the overall tax position, particularly for landlords with multiple properties or higher personal income, and the rules affecting landlords have changed substantially in recent years. We help landlords understand their reporting obligations, plan ownership structures sensibly, and keep on top of an area of tax that continues to evolve."
+    ]
+  },
+  "Property investment - tax aspects": {
+    "summary": "Explains the wider range of tax issues that can arise from owning and disposing of investment property.",
+    "body": [
+      "Beyond the income tax due on rental profits, owning investment property raises other tax questions, including capital gains tax on eventual sale, stamp duty land tax on purchase, and potential inheritance tax implications if property forms part of an estate. Furnished holiday lets and commercial property can also carry different treatment from standard residential lets.",
+      "Because property is often a significant and illiquid asset, the tax consequences of buying, holding or selling it deserve careful planning well in advance rather than an afterthought once a transaction is underway. We work with property investors to think through the full tax picture, from acquisition strategy through to eventual disposal or transfer."
+    ]
+  },
+  "Seed Enterprise Investment Scheme": {
+    "summary": "Outlines the tax reliefs available to investors backing very early-stage, higher-risk UK companies under SEIS.",
+    "body": [
+      "The Seed Enterprise Investment Scheme is aimed at very early-stage companies and offers investors even more generous tax reliefs than its sister scheme, EIS, in recognition of the higher risk involved in backing a brand-new business. Reliefs typically include income tax relief on the sum invested and beneficial capital gains tax treatment, subject to strict qualifying conditions.",
+      "Both the investing individual and the company raising funds must meet detailed eligibility rules, covering matters such as the company's age, size, trade and how the money will be used. Advance assurance from HMRC is often sought before investment to give both parties confidence. We support start-ups and investors in structuring SEIS-qualifying investment correctly from the outset."
+    ]
+  },
+  "Statutory Residence Test": {
+    "summary": "Explains the framework HMRC uses to determine whether an individual is UK tax resident for a given year.",
+    "body": [
+      "The Statutory Residence Test is the set of rules HMRC uses to decide whether someone is resident in the UK for tax purposes in a given tax year, which in turn affects how much of their worldwide income and gains are taxable here. It works through a series of tests based on factors such as days spent in the UK, work patterns and personal ties.",
+      "The test can produce results that surprise people who assume residence is simply about where they consider 'home' to be, particularly those splitting time between the UK and abroad, or arriving or leaving partway through a tax year. Given how much can turn on it, we recommend reviewing your position with us before a move, secondment or extended period overseas."
+    ]
+  },
+  "Taxation of the family": {
+    "summary": "Covers how income, assets and tax planning can be arranged across a family to make efficient use of allowances.",
+    "body": [
+      "Tax is generally assessed on an individual basis in the UK, which means how income and assets are held across a family can materially affect the overall tax bill. Sensible planning might involve spreading investment income between spouses or civil partners, considering how children's savings are held, or thinking about how gifts and transfers within the family are structured.",
+      "Family tax planning needs to balance efficiency with practicality and, where relevant, long-term estate and succession goals, rather than chasing savings that create awkward ownership arrangements. We take a whole-family view where appropriate, helping households make use of available allowances and structure their affairs sensibly across generations."
+    ]
+  },
+  "Tax-Free Childcare": {
+    "summary": "Explains the government scheme that tops up money saved towards approved childcare costs for working parents.",
+    "body": [
+      "Tax-Free Childcare is a government scheme designed to help working parents with the cost of approved childcare, operating through an online account into which parents pay money that is then topped up by the government, up to set limits. It can be used towards nurseries, childminders, after-school clubs and other registered providers.",
+      "Eligibility depends on factors including both parents' working status and income levels, and the scheme cannot usually be used alongside employer-provided childcare vouchers, so it is worth comparing options before switching. We can help working parents and business owners understand which support is most valuable for their circumstances."
+    ]
+  },
+  "Venture Capital Trusts": {
+    "summary": "Outlines how Venture Capital Trusts offer investors tax incentives for backing a diversified portfolio of smaller companies.",
+    "body": [
+      "A Venture Capital Trust is a company listed on the stock exchange that pools investors' money to invest in a portfolio of smaller, higher-risk trading companies. In return for the higher risk involved, investors can benefit from tax reliefs including income tax relief on the amount subscribed and tax-free dividends, provided shares are held for the required minimum period.",
+      "Because VCTs spread investment across a number of underlying companies, they can offer a way to access the tax advantages associated with backing early-stage businesses with somewhat more diversification than a single direct investment. As with any higher-risk investment, the underlying capital is not guaranteed, and we would always recommend discussing suitability alongside your wider financial plans."
+    ]
+  },
+  "Charities in England and Wales: trustees' responsibilities": {
+    "summary": "Sets out the duties charity trustees hold under the framework overseen by the Charity Commission for England and Wales.",
+    "body": [
+      "Charities registered in England and Wales are regulated by the Charity Commission, and their trustees carry legal responsibility for ensuring the charity is run in line with its governing document and charity law, acting in the charity's best interests, managing resources responsibly, and safeguarding its assets and reputation for the benefit of the people or causes it exists to serve.",
+      "Trustees must also meet reporting obligations to the Commission, including annual returns and accounts appropriate to the charity's size and structure, and ensure proper financial controls are in place. We support charity trustees with accounting, independent examination and reporting requirements, helping boards meet their obligations with confidence and focus on their charitable purpose."
+    ]
+  },
+  "Charities in Scotland: trustees' responsibilities": {
+    "summary": "Explains the trustee duties that apply to charities regulated in Scotland, where the framework differs from England and Wales.",
+    "body": [
+      "Charities operating in Scotland fall under a separate legal framework, regulated by the Office of the Scottish Charity Regulator, OSCR, rather than the Charity Commission. Scottish charity trustees have similar core duties, acting in the charity's interests and managing it prudently, but the governing legislation, registration requirements and reporting rules are distinct from those south of the border.",
+      "This matters in practice for organisations operating across the UK, or considering where to register, since a charity's structure, accounting requirements and annual reporting to OSCR follow Scotland's own rules rather than assuming those used elsewhere apply. We advise Scottish charities and cross-border organisations on meeting their specific regulatory obligations correctly."
+    ]
+  },
+  "Community amateur sports clubs": {
+    "summary": "Explains the CASC scheme, which gives qualifying local sports clubs charity-style tax reliefs without full charitable status.",
+    "body": [
+      "The Community Amateur Sports Club scheme allows qualifying local sports clubs to register with HMRC and access a range of tax reliefs similar to those enjoyed by charities, without needing to become a registered charity themselves. To qualify, a club generally needs to be open to the whole community, run on an amateur basis, and organised so that its income supports its sporting purpose.",
+      "Registered clubs can benefit from reliefs on trading income, property income and gifts, alongside Gift Aid on qualifying donations, but the conditions must be maintained on an ongoing basis to keep the status. We help sports clubs assess whether CASC registration suits them and support the accounting and reporting that comes with maintaining it."
+    ]
+  },
+  "Insolvency": {
+    "summary": "Covers what insolvency means for a business or individual and the main routes available when debts cannot be met.",
+    "body": [
+      "Insolvency occurs when a business or individual can no longer pay debts as they fall due, or when liabilities exceed assets. Depending on the situation, this can lead down several different paths, from informal arrangements with creditors and formal restructuring options, through to more formal processes such as administration, liquidation or, for individuals, bankruptcy or an individual voluntary arrangement.",
+      "Recognising financial difficulty early gives far more options than waiting until the position becomes critical, since some routes exist specifically to help a viable business recover rather than close. We can help directors and individuals understand the warning signs, review the options realistically available, and work alongside licensed insolvency practitioners where formal action is needed."
+    ]
+  },
+  "Limited liability partnerships": {
+    "summary": "Explains how an LLP combines partnership flexibility with limited liability protection for its members.",
+    "body": [
+      "A limited liability partnership is a corporate structure that lets a business be run with the flexibility of a traditional partnership while giving its members the protection of limited liability, similar to shareholders in a company. LLPs must be registered at Companies House and file accounts and confirmation statements, though profits are generally taxed on individual members rather than the LLP itself.",
+      "The structure is popular with professional services firms and joint ventures where partners want operational flexibility and profit-sharing arrangements agreed between themselves, without exposing personal assets to the same extent as an unincorporated partnership. We help LLPs with their accounting, member profit allocations and compliance obligations, and advise on whether the structure suits a new or existing business."
+    ]
+  },
+  "Money laundering": {
+    "summary": "Covers the anti-money laundering obligations that apply to regulated businesses, including accountants, to prevent financial crime.",
+    "body": [
+      "Money laundering regulations require certain businesses, including accountancy firms, to have systems in place to identify and prevent their services being used to disguise the proceeds of crime. This typically includes verifying client identity, assessing risk, monitoring transactions, and reporting anything suspicious to the relevant authorities, backed by internal policies, staff training and record-keeping.",
+      "As a regulated firm, we take these obligations seriously, which is why we carry out identity checks and ongoing due diligence on our own clients as a matter of routine, not because of any suspicion. We can also advise other regulated businesses on setting up proportionate anti-money laundering procedures and meeting their own supervisory obligations."
+    ]
+  },
+  "Money laundering - high value dealers": {
+    "summary": "Explains the specific registration and reporting duties that apply to businesses accepting large cash payments for goods.",
+    "body": [
+      "Businesses that accept or make large cash payments in exchange for goods, known as high value dealers, fall within scope of money laundering regulations in their own right, separate from the obligations placed on accountants and other professional advisers. This can include dealers in vehicles, jewellery, art and other high-value goods where cash transactions above a set threshold occur.",
+      "Falling into this category brings specific duties, including registering with the appropriate supervisory authority, carrying out customer due diligence on relevant transactions, and keeping adequate records, with penalties for businesses that fail to register or comply. We help affected businesses understand whether they fall within scope and put the right registration and controls in place."
+    ]
+  },
+  "Social enterprise entity structures": {
+    "summary": "Compares the legal structures available to organisations that want to trade for a social or community purpose.",
+    "body": [
+      "Organisations set up to pursue a social or community purpose alongside, or instead of, pure profit have several structures to choose from, including community interest companies, charitable companies, co-operatives and standard companies with a social mission built into their governance. Each option carries different implications for regulation, access to funding, and how profits and assets can be used or distributed.",
+      "Choosing the right structure from the outset makes a real difference to how a social enterprise can raise funding, protect its mission over time, and report to stakeholders and regulators. We help founders weigh up the options against their goals and support social enterprises with the accounting and reporting obligations that follow their chosen structure."
+    ]
+  },
+  "Business plans": {
+    "summary": "Why a clear business plan matters before you start trading, and what it should cover beyond the numbers.",
+    "body": [
+      "A business plan forces you to think through your idea properly before committing time and money to it: what you're selling, who to, how you'll reach them, and what it will cost to get there. It's also the document lenders and investors will expect to see, so it needs to stand up to scrutiny, not just enthusiasm.",
+      "A good plan covers the market you're entering, your competitors, your operating costs, and realistic financial projections, then gets revisited as the business actually develops. We help clients build plans that are grounded in workable numbers rather than optimistic guesswork, and stress-test them before anyone else does."
+    ]
+  },
+  "Business structures - which should I use?": {
+    "summary": "How to choose between operating as a sole trader, partnership, or limited company, and what changes with each.",
+    "body": [
+      "The structure you trade under affects your tax position, your personal liability if things go wrong, the paperwork you're required to file, and how easily you can bring in investors or sell the business later. Sole trader and partnership structures are simpler to set up and run, but leave you personally liable for business debts.",
+      "A limited company separates your personal finances from the business and can be more tax-efficient once profits reach a certain level, but comes with statutory filing obligations and less privacy. The right choice depends on your circumstances, growth plans, and appetite for administration — it's worth getting advice before you register anything."
+    ]
+  },
+  "Considerations when starting a business": {
+    "summary": "The practical groundwork worth doing before you start trading — from structure and funding to registrations and record-keeping.",
+    "body": [
+      "Beyond the idea itself, starting a business well means settling a handful of practical questions early: what legal structure to trade under, how you'll fund the first months before revenue arrives, what registrations and licences you need, and what records you're required to keep from day one.",
+      "Getting these right from the outset avoids expensive corrections later — restructuring after the fact, or reconstructing a year of missing bookkeeping, both cost far more than doing it properly at the start. We work with new business owners through exactly this groundwork before they take their first order."
+    ]
+  },
+  "Could I really make a go of it?": {
+    "summary": "An honest look at what it takes to know whether a business idea is genuinely viable before you commit to it.",
+    "body": [
+      "Enthusiasm for an idea is not the same as evidence it will work. A realistic assessment means testing your assumptions about demand, pricing, and costs against actual numbers — not just against your own confidence — and being honest about what you don't yet know.",
+      "It also means being clear-eyed about what running a business actually demands: cash flow through the quiet periods, the skills you'll need beyond your core expertise, and how much risk you can genuinely absorb. We help prospective business owners pressure-test their numbers before they hand in their notice, not after."
+    ]
+  },
+  "Credit control": {
+    "summary": "How to get paid on time and manage the risk of customers who don't pay, which is often what actually sinks a growing business.",
+    "body": [
+      "More businesses run into trouble from slow-paying customers than from lack of demand — profitable on paper, but short of cash because invoices sit unpaid. Good credit control means setting clear payment terms upfront, checking a new customer's creditworthiness before extending credit, and following up on overdue invoices promptly and consistently rather than hoping they'll settle themselves.",
+      "It also means knowing when to say no — walking away from an order rather than taking on a customer who is unlikely to pay. We help clients put a credit control process in place that protects cash flow without damaging customer relationships."
+    ]
+  },
+  "Insuring your business": {
+    "summary": "The types of business insurance worth considering, and why the right cover depends heavily on what your business actually does.",
+    "body": [
+      "The insurance a business needs varies enormously by what it does and who it deals with — public liability, professional indemnity, employers' liability, and cover for premises, stock, or key individuals all address different risks. Some are a legal requirement the moment you employ anyone; others are simply prudent given what you'd lose without them.",
+      "Under-insuring to save on premiums is a common false economy, but so is paying for cover you don't need. We can point clients toward the right conversations with a broker once we understand the shape of the business and where its real exposure sits."
+    ]
+  },
+  "Raising finance": {
+    "summary": "The main routes available for funding a business, from your own resources through to external investors, and how to prepare for each.",
+    "body": [
+      "Options range from self-funding and family loans, through bank finance and asset-based lending, to equity investment from angels or venture capital. Each comes with a different cost, a different level of control you give up, and a different set of expectations about the numbers you'll need to show.",
+      "Whichever route you're pursuing, lenders and investors will want credible financial projections and a clear story about how the money will be used and repaid or returned. We help clients build the financial case that supports the conversation, not just the pitch."
+    ]
+  },
+  "Sources of finance": {
+    "summary": "A look at where business funding actually comes from — bank lending, alternative finance, grants, and investment — and what suits different stages of growth.",
+    "body": [
+      "Beyond a straightforward bank loan, businesses can draw on invoice finance, asset finance, alternative lenders, government-backed schemes, and grants aimed at specific sectors or activities, alongside equity investment for higher-growth ventures. The right source depends on what the money is for and how quickly you need it.",
+      "Matching the type of finance to the purpose matters: funding day-to-day working capital with long-term debt, or funding equipment with short-term borrowing, both create avoidable strain later. We help clients work out which combination of sources actually fits their situation."
+    ]
+  },
+  "VAT - a summary": {
+    "summary": "An overview of how VAT works, when a business needs to register, and the broad obligations that come with being VAT registered.",
+    "body": [
+      "VAT is charged on most goods and services sold in the UK, collected by registered businesses on HMRC's behalf. Once a business's taxable turnover passes the registration threshold it must register, charge VAT on its sales, and can generally reclaim VAT it has paid on business purchases, accounting for the difference to HMRC.",
+      "Registration brings ongoing obligations — charging the right rate, keeping proper records, and filing returns on schedule — and there are several accounting schemes that can simplify this depending on the size and nature of the business. We help clients register at the right time and choose a scheme that fits how they actually operate."
+    ]
+  },
+  "VAT - annual accounting scheme": {
+    "summary": "How the annual accounting scheme lets eligible businesses file one VAT return a year instead of quarterly, smoothing cash flow through instalments.",
+    "body": [
+      "Rather than filing four VAT returns a year, businesses on this scheme submit one annual return and make regular advance payments toward their VAT bill throughout the year, based on an estimate. This reduces the administrative burden of quarterly filing and can make cash flow more predictable.",
+      "It suits businesses with stable, predictable turnover who'd rather budget for VAT in regular instalments than face a single larger reconciliation each quarter. It's not right for every business, particularly those expecting to reclaim more VAT than they charge — we help clients weigh that up before opting in."
+    ]
+  },
+  "VAT - bad debt relief": {
+    "summary": "How a VAT-registered business can reclaim the VAT already paid over to HMRC on invoices that a customer never actually pays.",
+    "body": [
+      "When a business has accounted for VAT on a sale but the customer subsequently fails to pay, bad debt relief allows the VAT already handed over to HMRC on that invoice to be reclaimed, provided certain conditions and time limits are met.",
+      "Getting this right means keeping clear records of the original sale, the VAT accounted for, and the steps taken to recover the debt before writing it off. We help clients identify when relief is available and make sure it's claimed correctly rather than left on the table."
+    ]
+  },
+  "VAT - cash accounting": {
+    "summary": "How the cash accounting scheme lets eligible businesses account for VAT when payment is actually received or made, rather than on invoice dates.",
+    "body": [
+      "Under standard VAT accounting, VAT is due based on invoice dates regardless of when payment is actually received. The cash accounting scheme instead lets eligible businesses account for VAT when money actually changes hands — which can meaningfully help cash flow, particularly where customers are slow to pay.",
+      "It also has a natural advantage if a customer never pays at all, since VAT was never due on that sale in the first place, avoiding the separate bad debt relief process. We help clients assess whether this scheme suits their payment patterns better than standard accounting."
+    ]
+  },
+  "VAT - flat rate scheme": {
+    "summary": "How the flat rate scheme simplifies VAT for smaller businesses by applying a single fixed percentage to turnover instead of tracking VAT on every purchase.",
+    "body": [
+      "Rather than reclaiming VAT on individual purchases, businesses on the flat rate scheme apply a fixed percentage — set according to their trade sector — to their VAT-inclusive turnover and pay that over to HMRC. This significantly reduces the record-keeping burden of standard VAT accounting.",
+      "Whether it actually saves money depends on the sector rate and how much VAT-bearing expenditure the business has, so it doesn't suit everyone equally. We help clients run the comparison against standard accounting before deciding whether to join."
+    ]
+  },
+  "VAT - Making Tax Digital": {
+    "summary": "What Making Tax Digital for VAT requires — digital record-keeping and return filing through compatible software rather than manual submission.",
+    "body": [
+      "Making Tax Digital requires VAT-registered businesses to keep their VAT records digitally and submit returns to HMRC through compatible software, rather than typing figures directly into HMRC's portal. The aim is fewer manual transcription errors and a more accurate, real-time link between a business's records and HMRC's systems.",
+      "In practice this means using accounting software, or bridging software linked to a spreadsheet, that connects directly to HMRC. We help clients get the right setup in place and keep their digital records compliant, so filing is routine rather than a quarterly scramble."
+    ]
+  },
+  "VAT - seven key points for the smaller business": {
+    "summary": "The practical VAT basics smaller businesses most often get caught out by, from registration timing to record-keeping and scheme choice.",
+    "body": [
+      "Smaller businesses tend to trip up on the same handful of VAT points: registering too late (or too early), charging the wrong rate on certain goods or services, not keeping VAT invoices properly, and missing the right accounting scheme for how they actually trade. Each is straightforward to avoid once you know to look for it.",
+      "Getting comfortable with VAT early — registration, invoicing, record-keeping, filing deadlines, and scheme choice — saves far more time than sorting out mistakes retrospectively. We talk new and growing businesses through exactly these points so VAT becomes routine rather than a source of surprises."
+    ]
+  }
+}

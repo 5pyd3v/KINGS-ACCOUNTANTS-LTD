@@ -11,15 +11,15 @@ interface ScrollHeadingProps {
 
 const container: Variants = {
   hidden: {},
-  visible: { transition: { staggerChildren: 0.07 } },
+  visible: { transition: { staggerChildren: 0.04 } },
 };
 
 const word: Variants = {
-  hidden: { y: "110%", opacity: 0 },
+  hidden: { y: "100%", opacity: 0 },
   visible: {
     y: "0%",
     opacity: 1,
-    transition: { duration: 0.85, ease: [0.22, 1, 0.36, 1] },
+    transition: { duration: 0.45, ease: [0.22, 1, 0.36, 1] },
   },
 };
 

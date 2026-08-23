@@ -45,9 +45,9 @@ export function MagneticButton({
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
         className={cn(
-          "group inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-medium tracking-wide transition-colors duration-300",
+          "group inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-medium tracking-wide transition-all duration-300",
           variant === "primary"
-            ? "bg-brand-700 text-paper hover:bg-brand-600"
+            ? "bg-gradient-to-b from-brand-600 to-brand-800 text-paper shadow-[0_8px_24px_-8px_rgba(139,26,58,0.55)] hover:shadow-[0_12px_32px_-8px_rgba(139,26,58,0.7)]"
             : "border border-ink-300 text-ink-800 hover:border-brand-700 hover:text-brand-700",
           className
         )}

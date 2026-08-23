@@ -65,15 +65,22 @@ export default async function FactsheetCategoryPage({
               <Reveal key={factsheet.slug} delay={index * 0.03}>
                 <Link
                   href={`/factsheets/${category.slug}/${factsheet.slug}`}
-                  className="group grid gap-4 py-7 transition-colors md:grid-cols-[auto_1fr_auto] md:items-center md:gap-8"
+                  className="group grid gap-4 rounded-2xl py-7 transition-all duration-300 hover:-mx-6 hover:bg-paper-dim hover:px-6 hover:shadow-[0_1px_2px_rgba(26,22,19,0.04),0_16px_40px_-20px_rgba(26,22,19,0.14)] md:grid-cols-[auto_1fr_auto] md:items-center md:gap-8"
                 >
                   <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-ink-100 bg-paper-dim text-brand-700 transition-colors duration-500 group-hover:border-brand-200 group-hover:bg-brand-50">
                     <FileText className="h-4 w-4" strokeWidth={1.6} />
                   </span>
-                  <h2 className="font-display text-lg leading-snug text-ink-900 transition-colors duration-300 group-hover:text-brand-700">
-                    {factsheet.title}
-                  </h2>
-                  <span className="inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.18em] text-ink-400 transition-colors duration-500 group-hover:text-brand-700">
+                  <div>
+                    <h2 className="font-display text-lg leading-snug text-ink-900 transition-colors duration-300 group-hover:text-brand-700">
+                      {factsheet.title}
+                    </h2>
+                    {factsheet.summary && (
+                      <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-500">
+                        {factsheet.summary}
+                      </p>
+                    )}
+                  </div>
+                  <span className="inline-flex items-center gap-2 self-start text-xs font-medium uppercase tracking-[0.18em] text-ink-400 transition-colors duration-500 group-hover:text-brand-700 md:self-center">
                     Read more
                     <ArrowUpRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </span>

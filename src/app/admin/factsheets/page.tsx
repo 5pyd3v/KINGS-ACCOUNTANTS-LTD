@@ -19,7 +19,7 @@ export default async function AdminFactsheetsPage() {
     factsheetsByCategory.set(factsheet.categorySlug, list);
   }
 
-  const withContent = factsheets.filter((f) => (f.body ?? []).length > 0).length;
+  const withContent = factsheets.filter((f) => (f.body ?? "").trim().length > 0).length;
 
   return (
     <div>
@@ -62,7 +62,7 @@ export default async function AdminFactsheetsPage() {
                 <table className="w-full text-left text-sm">
                   <tbody className="divide-y divide-paper/[0.07]">
                     {items.map((factsheet) => {
-                      const hasContent = (factsheet.body ?? []).length > 0;
+                      const hasContent = (factsheet.body ?? "").trim().length > 0;
                       return (
                         <tr
                           key={String(factsheet._id)}

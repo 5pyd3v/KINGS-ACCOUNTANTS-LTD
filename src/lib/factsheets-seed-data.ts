@@ -1,7 +1,22 @@
 import { slugify } from "@/lib/slugify";
+import factsheetContent from "@/lib/factsheet-content.json";
+
+const content: Record<string, { summary: string; body: string[] }> = factsheetContent;
+
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+/** Wraps agent-drafted paragraphs as sanitized-editor-compatible HTML. */
+function paragraphsToHtml(paragraphs: string[]): string {
+  return paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("");
+}
 
 /**
- * Factsheets taxonomy and topic titles.
+ * Factsheets taxonomy and content.
  *
  * The category names and factsheet titles below mirror the real structure
  * published under /factsheets/ on kings-accountants.co.uk (11 categories,
@@ -9,23 +24,27 @@ import { slugify } from "@/lib/slugify";
  * such as "Stamp Duty Land Tax" or "Bribery Act 2010", which are factual
  * labels rather than creative content).
  *
- * The category descriptions and factsheet summaries are original text
- * written for this project, NOT copied from the live site. That site's
- * /factsheets/ subdirectory turned out to be an unedited mirror of a
- * different, unrelated accountancy firm's website (confirmed via HTTrack
- * mirror comments, mismatched branding, and the fact every individual
- * factsheet detail page 404s) — so republishing its descriptive text under
- * Kings Accountants' name would mean passing off another real business's
- * copyrighted copy. The `body` field is deliberately left empty for every
- * factsheet: it's real infrastructure ready for the firm (or a licensed
- * factsheet content provider) to fill in via the admin CMS.
+ * The body content (src/lib/factsheet-content.json) is ORIGINAL — written
+ * for this project, not copied from the live site. That site's /factsheets/
+ * subdirectory turned out to be an unedited mirror of a different, unrelated
+ * accountancy firm's website (confirmed via HTTrack mirror comments and
+ * mismatched branding), so republishing its text under Kings Accountants'
+ * name would mean passing off another real business's copyrighted copy.
+ *
+ * The generated content deliberately avoids stating specific tax rates,
+ * percentages, or £ thresholds (those change every UK tax year and a stale
+ * or wrong figure published as advice from a real firm is a real liability)
+ * — it describes general mechanism and purpose instead. Treat it as a solid
+ * first draft: it should be reviewed by a qualified advisor at the firm
+ * before being relied on as the firm's official published guidance.
  */
 
 export interface FactsheetSeedItem {
   title: string;
   slug: string;
   summary: string;
-  body: string[];
+  /** Sanitized HTML body, authored via the admin rich-text editor. */
+  body: string;
   order: number;
 }
 
@@ -233,12 +252,15 @@ export const FACTSHEET_CATEGORIES: FactsheetCategorySeed[] = RAW_CATEGORIES.map(
     title: category.title,
     description: category.description,
     order: categoryIndex,
-    factsheets: category.titles.map((title, titleIndex) => ({
-      title,
-      slug: slugify(title),
-      summary: PLACEHOLDER_SUMMARY,
-      body: [],
-      order: titleIndex,
-    })),
+    factsheets: category.titles.map((title, titleIndex) => {
+      const entry = content[title];
+      return {
+        title,
+        slug: slugify(title),
+        summary: entry?.summary || PLACEHOLDER_SUMMARY,
+        body: paragraphsToHtml(entry?.body ?? []),
+        order: titleIndex,
+      };
+    }),
   })
 );

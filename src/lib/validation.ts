@@ -104,7 +104,7 @@ export const factsheetSchema = z.object({
   title: z.string().trim().min(2).max(200),
   slug: z.string().trim().max(200).optional().or(z.literal("")),
   summary: z.string().trim().max(1000).optional().or(z.literal("")),
-  body: z.array(z.string().trim().max(8000)).max(50),
+  body: z.string().max(30000).optional().or(z.literal("")),
   order: z.number().int().min(0).max(999),
   isActive: z.boolean(),
 });

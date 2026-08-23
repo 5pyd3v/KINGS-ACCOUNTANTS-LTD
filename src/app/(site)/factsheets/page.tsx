@@ -35,7 +35,7 @@ export default async function FactsheetsPage() {
               <Reveal key={category.slug} delay={index * 0.05}>
                 <Link
                   href={`/factsheets/${category.slug}`}
-                  className="group flex h-full flex-col justify-between rounded-2xl border border-ink-100 bg-paper-dim/60 p-7 transition-colors duration-500 hover:border-brand-200"
+                  className="group flex h-full flex-col justify-between rounded-2xl border border-ink-100 bg-paper p-7 shadow-[0_1px_2px_rgba(26,22,19,0.04),0_12px_32px_-16px_rgba(26,22,19,0.1)] transition-all duration-500 hover:-translate-y-1 hover:border-brand-200 hover:shadow-[0_1px_2px_rgba(26,22,19,0.04),0_28px_56px_-20px_rgba(139,26,58,0.22)]"
                 >
                   <div>
                     <h2 className="font-display text-xl leading-snug text-ink-900">

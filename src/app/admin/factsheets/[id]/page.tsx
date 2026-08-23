@@ -29,7 +29,7 @@ export default async function AdminFactsheetEditPage({
         title: factsheet.title,
         slug: factsheet.slug,
         summary: factsheet.summary ?? "",
-        body: factsheet.body ?? [],
+        body: factsheet.body ?? "",
         order: factsheet.order,
         isActive: factsheet.isActive,
       }}

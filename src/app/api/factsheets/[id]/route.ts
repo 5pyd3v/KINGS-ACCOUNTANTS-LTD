@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { Factsheet } from "@/models";
 import { factsheetSchema } from "@/lib/validation";
 import { slugify } from "@/lib/slugify";
+import { sanitizeFactsheetHtml } from "@/lib/sanitize-html";
 import { parseAdminBody, requireAdmin, handleApiError } from "@/lib/api-helpers";
 import { dbConnect } from "@/lib/db";
 
@@ -16,7 +17,11 @@ export async function PUT(
   try {
     const factsheet = await Factsheet.findByIdAndUpdate(
       id,
-      { ...data, slug: data.slug?.trim() ? slugify(data.slug) : slugify(data.title) },
+      {
+        ...data,
+        slug: data.slug?.trim() ? slugify(data.slug) : slugify(data.title),
+        body: data.body ? sanitizeFactsheetHtml(data.body) : "",
+      },
       { new: true, runValidators: true }
     );
     if (!factsheet) return NextResponse.json({ error: "Not found." }, { status: 404 });

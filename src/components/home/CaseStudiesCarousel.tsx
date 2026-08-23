@@ -50,7 +50,7 @@ function CaseStudyCard({ caseStudy }: { caseStudy: CaseStudyView }) {
   return (
     <Link
       href={`/insights/${caseStudy.slug}`}
-      className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-ink-200 bg-paper transition-colors duration-500 hover:border-brand-300"
+      className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-ink-200 bg-paper shadow-[0_1px_2px_rgba(26,22,19,0.04),0_12px_32px_-16px_rgba(26,22,19,0.1)] transition-all duration-500 hover:-translate-y-1 hover:border-brand-300 hover:shadow-[0_1px_2px_rgba(26,22,19,0.04),0_28px_56px_-20px_rgba(139,26,58,0.22)]"
     >
       {caseStudy.coverImage && (
         <div className="relative h-40 shrink-0 overflow-hidden">

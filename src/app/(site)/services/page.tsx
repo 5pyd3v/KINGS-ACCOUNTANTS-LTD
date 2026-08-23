@@ -33,7 +33,7 @@ export default async function ServicesPage() {
               <Reveal key={service.slug} delay={index * 0.05}>
                 <Link
                   href={`/services/${service.slug}`}
-                  className="group grid gap-6 py-10 transition-colors md:grid-cols-[auto_1fr_auto] md:items-center md:gap-10"
+                  className="group grid gap-6 rounded-2xl py-10 transition-all duration-300 hover:-mx-6 hover:bg-paper-dim hover:px-6 hover:shadow-[0_1px_2px_rgba(26,22,19,0.04),0_16px_40px_-20px_rgba(26,22,19,0.14)] md:grid-cols-[auto_1fr_auto] md:items-center md:gap-10"
                 >
                   <span className="inline-flex h-14 w-14 items-center justify-center rounded-xl border border-ink-100 bg-paper-dim text-brand-700 transition-colors duration-500 group-hover:border-brand-200 group-hover:bg-brand-50">
                     <ServiceIcon name={service.iconName} />

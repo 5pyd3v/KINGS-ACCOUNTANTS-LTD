@@ -77,6 +77,7 @@ async function seed() {
             title: factsheet.title,
             slug: factsheet.slug,
             summary: factsheet.summary,
+            body: factsheet.body,
             order: factsheet.order,
           },
         },

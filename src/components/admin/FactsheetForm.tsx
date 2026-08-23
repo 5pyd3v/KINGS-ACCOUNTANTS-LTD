@@ -3,10 +3,11 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Loader2, Plus, X } from "lucide-react";
+import { ArrowLeft, Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import { Field, Toggle, fieldClass } from "@/components/admin/form-fields";
 import { DeleteButton } from "@/components/admin/DeleteButton";
+import { RichTextEditor } from "@/components/admin/RichTextEditor";
 
 export interface FactsheetFormValues {
   _id?: string;
@@ -14,7 +15,7 @@ export interface FactsheetFormValues {
   title: string;
   slug: string;
   summary: string;
-  body: string[];
+  body: string;
   order: number;
   isActive: boolean;
 }
@@ -29,7 +30,7 @@ const emptyValues = (defaultCategorySlug: string): FactsheetFormValues => ({
   title: "",
   slug: "",
   summary: "",
-  body: [],
+  body: "",
   order: 0,
   isActive: true,
 });
@@ -52,21 +53,6 @@ export function FactsheetForm({
     setValues((prev) => ({ ...prev, [key]: value }));
   }
 
-  function updateParagraph(index: number, value: string) {
-    setValues((prev) => ({
-      ...prev,
-      body: prev.body.map((paragraph, i) => (i === index ? value : paragraph)),
-    }));
-  }
-
-  function addParagraph() {
-    setValues((prev) => ({ ...prev, body: [...prev.body, ""] }));
-  }
-
-  function removeParagraph(index: number) {
-    setValues((prev) => ({ ...prev, body: prev.body.filter((_, i) => i !== index) }));
-  }
-
   async function handleSubmit(event: React.FormEvent) {
     event.preventDefault();
     setSaving(true);
@@ -77,11 +63,7 @@ export function FactsheetForm({
       const response = await fetch(endpoint, {
         method: isEdit ? "PUT" : "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          ...values,
-          order: Number(values.order),
-          body: values.body.map((p) => p.trim()).filter(Boolean),
-        }),
+        body: JSON.stringify({ ...values, order: Number(values.order) }),
       });
 
       const data = await response.json().catch(() => ({}));
@@ -176,48 +158,12 @@ export function FactsheetForm({
         </Field>
 
         <div>
-          <div className="mb-3 flex items-center justify-between">
-            <p className="text-xs uppercase tracking-[0.18em] text-ink-400">
-              Body (one paragraph per box)
-            </p>
-            <button
-              type="button"
-              onClick={addParagraph}
-              className="inline-flex items-center gap-1.5 text-xs text-brand-300 transition-colors hover:text-brand-200"
-            >
-              <Plus className="h-3.5 w-3.5" />
-              Add paragraph
-            </button>
-          </div>
-
-          {values.body.length === 0 ? (
-            <p className="rounded-xl border border-dashed border-paper/15 px-4 py-6 text-center text-xs text-ink-500">
-              No body content yet — this factsheet will show as &ldquo;coming soon&rdquo; on the
-              site.
-            </p>
-          ) : (
-            <div className="space-y-3">
-              {values.body.map((paragraph, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <textarea
-                    aria-label={`Paragraph ${index + 1}`}
-                    value={paragraph}
-                    rows={3}
-                    onChange={(event) => updateParagraph(index, event.target.value)}
-                    className={`${fieldClass} resize-none`}
-                  />
-                  <button
-                    type="button"
-                    onClick={() => removeParagraph(index)}
-                    aria-label={`Remove paragraph ${index + 1}`}
-                    className="mt-2 shrink-0 rounded-full border border-paper/15 p-2 text-ink-400 transition-colors hover:border-brand-500/60 hover:text-brand-300"
-                  >
-                    <X className="h-3.5 w-3.5" />
-                  </button>
-                </div>
-              ))}
-            </div>
-          )}
+          <p className="mb-3 text-xs uppercase tracking-[0.18em] text-ink-400">Body</p>
+          <RichTextEditor value={values.body} onChange={(html) => set("body", html)} />
+          <p className="mt-2 text-xs text-ink-500">
+            Formats exactly as it will appear on the site. Leave empty to show a &ldquo;coming
+            soon&rdquo; message instead.
+          </p>
         </div>
 
         <Field label="Order" htmlFor="order" hint="Lower numbers appear first within the category.">

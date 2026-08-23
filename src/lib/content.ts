@@ -203,7 +203,7 @@ export async function getFactsheetsByCategory(categorySlug: string): Promise<Fac
       title: doc.title,
       slug: doc.slug,
       summary: doc.summary ?? "",
-      body: doc.body ?? [],
+      body: doc.body ?? "",
       order: doc.order,
     }));
   }, FACTSHEET_CATEGORIES.find((category) => category.slug === categorySlug)?.factsheets ?? []);

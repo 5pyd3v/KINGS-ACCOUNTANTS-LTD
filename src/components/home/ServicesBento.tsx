@@ -24,8 +24,10 @@ const SPANS = [
 
 export function ServicesBento({ services }: { services: ServiceView[] }) {
   return (
-    <section id="services" className="relative bg-paper py-28">
-      <div className="mx-auto max-w-7xl px-6">
+    <section id="services" className="relative overflow-hidden bg-paper py-28">
+      <div className="pointer-events-none absolute -left-32 top-0 h-[26rem] w-[26rem] rounded-full bg-brand-50 opacity-60 blur-3xl" />
+      <div className="pointer-events-none absolute -right-24 bottom-0 h-[22rem] w-[22rem] rounded-full bg-gilt-200 opacity-40 blur-3xl" />
+      <div className="relative mx-auto max-w-7xl px-6">
         <div className="mb-16 flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
           <div>
             <Reveal>
@@ -60,12 +62,12 @@ export function ServicesBento({ services }: { services: ServiceView[] }) {
               >
                 <Link
                   href={`/services/${service.slug}`}
-                  className="relative flex h-full flex-col justify-between overflow-hidden rounded-2xl border border-ink-100 bg-paper-dim/60 p-8 transition-colors duration-500 hover:border-brand-200"
+                  className="relative flex h-full flex-col justify-between overflow-hidden rounded-2xl border border-ink-100 bg-paper p-8 shadow-[0_1px_2px_rgba(26,22,19,0.04),0_12px_32px_-16px_rgba(26,22,19,0.1)] transition-all duration-500 hover:border-brand-200 hover:shadow-[0_1px_2px_rgba(26,22,19,0.04),0_28px_56px_-20px_rgba(139,26,58,0.22)]"
                 >
                   <span className="pointer-events-none absolute inset-0 bg-gradient-to-br from-brand-50 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
                   <div className="relative">
-                    <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl border border-ink-100 bg-paper text-brand-700 transition-colors duration-500 group-hover:border-brand-200 group-hover:bg-brand-50">
+                    <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl border border-ink-100 bg-gradient-to-br from-paper to-paper-dim text-brand-700 shadow-[0_2px_8px_-2px_rgba(26,22,19,0.1)] transition-all duration-500 group-hover:border-brand-200 group-hover:from-brand-50 group-hover:to-brand-100/60">
                       <ServiceIcon name={service.iconName} />
                     </span>
                     <h3 className="mt-7 font-display text-xl leading-snug text-ink-900">
