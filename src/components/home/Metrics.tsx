@@ -39,7 +39,7 @@ function Counter({ to, suffix }: { to: number; suffix: string }) {
 
 export function Metrics({ settings }: { settings: SiteSettingsView }) {
   return (
-    <section className="relative overflow-hidden bg-ink-950 py-24 text-paper">
+    <section className="relative overflow-hidden bg-ink-950 py-14 text-paper sm:py-24">
       <div
         className="pointer-events-none absolute inset-0 opacity-[0.07]"
         style={{
@@ -51,7 +51,7 @@ export function Metrics({ settings }: { settings: SiteSettingsView }) {
       <div className="pointer-events-none absolute -left-40 top-1/2 h-[28rem] w-[28rem] -translate-y-1/2 rounded-full bg-brand-800 opacity-30 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-6">
-        <div className="grid grid-cols-2 gap-x-8 gap-y-14 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-x-6 gap-y-8 sm:gap-x-8 sm:gap-y-14 lg:grid-cols-4">
           {settings.trustMetrics.map((metric, index) => (
             <motion.div
               key={metric.label}

@@ -75,7 +75,7 @@ export function FeatureCard({
   );
 
   const cardClass = cn(
-    "group relative flex h-full flex-col justify-between overflow-hidden rounded-2xl p-8 transition-all duration-500 hover:-translate-y-1",
+    "group relative flex h-full flex-col justify-between overflow-hidden rounded-2xl p-6 transition-all duration-500 hover:-translate-y-1 sm:p-8",
     spotlight
       ? "bg-gradient-to-br from-ink-900 to-ink-950 shadow-[0_1px_2px_rgba(0,0,0,0.25),0_20px_48px_-18px_rgba(16,13,12,0.5)] hover:shadow-[0_1px_2px_rgba(0,0,0,0.25),0_32px_64px_-16px_rgba(16,13,12,0.65)]"
       : "border border-ink-100 bg-gradient-to-b from-paper to-paper-dim/60 shadow-[0_1px_2px_rgba(26,22,19,0.04),0_12px_32px_-16px_rgba(26,22,19,0.1)] hover:border-brand-200 hover:shadow-[0_1px_2px_rgba(26,22,19,0.04),0_28px_56px_-20px_rgba(139,26,58,0.22)]",

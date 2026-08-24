@@ -17,7 +17,7 @@ export function ContactCTA({ settings }: { settings: SiteSettingsView }) {
   const glowY = useTransform(scrollYProgress, [0, 1], ["-18%", "18%"]);
 
   return (
-    <section ref={ref} className="relative overflow-hidden bg-ink-950 py-32 text-paper">
+    <section ref={ref} className="relative overflow-hidden bg-ink-950 py-16 text-paper sm:py-24 lg:py-32">
       <motion.div
         style={{ y: glowY }}
         className="pointer-events-none absolute -right-32 top-1/2 h-[34rem] w-[34rem] -translate-y-1/2 rounded-full bg-brand-800 opacity-40 blur-3xl"
@@ -32,7 +32,7 @@ export function ContactCTA({ settings }: { settings: SiteSettingsView }) {
       />
 
       <div className="relative mx-auto max-w-7xl px-6">
-        <div className="grid gap-16 lg:grid-cols-[1.3fr_1fr] lg:items-end">
+        <div className="grid gap-10 lg:grid-cols-[1.3fr_1fr] lg:items-end lg:gap-16">
           <div>
             <Reveal>
               <p className="mb-6 flex items-center gap-3 text-xs font-medium uppercase tracking-[0.28em] text-brand-300">

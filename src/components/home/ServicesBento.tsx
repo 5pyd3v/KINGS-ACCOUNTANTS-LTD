@@ -23,11 +23,11 @@ const SPANS = [
 
 export function ServicesBento({ services }: { services: ServiceView[] }) {
   return (
-    <section id="services" className="relative overflow-hidden bg-paper py-28">
+    <section id="services" className="relative overflow-hidden bg-paper py-16 sm:py-20 lg:py-28">
       <div className="pointer-events-none absolute -left-32 top-0 h-[26rem] w-[26rem] rounded-full bg-brand-50 opacity-60 blur-3xl" />
       <div className="pointer-events-none absolute -right-24 bottom-0 h-[22rem] w-[22rem] rounded-full bg-gilt-200 opacity-40 blur-3xl" />
       <div className="relative mx-auto max-w-7xl px-6">
-        <div className="mb-16 flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+        <div className="mb-10 flex flex-col justify-between gap-8 sm:mb-16 lg:flex-row lg:items-end">
           <div>
             <Reveal>
               <p className="mb-5 flex items-center gap-3 text-xs font-medium uppercase tracking-[0.28em] text-brand-700">

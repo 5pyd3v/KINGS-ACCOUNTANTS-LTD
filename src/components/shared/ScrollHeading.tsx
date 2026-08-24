@@ -41,7 +41,7 @@ export function ScrollHeading({ lines, className, as = "h2" }: ScrollHeadingProp
             <motion.span
               key={wordIndex}
               variants={word}
-              className="mr-[0.28em] inline-block will-change-transform"
+              className="mr-[0.28em] inline-block"
             >
               {wordText}
             </motion.span>

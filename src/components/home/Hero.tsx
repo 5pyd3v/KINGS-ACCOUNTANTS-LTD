@@ -59,7 +59,7 @@ export function Hero({ settings }: { settings: SiteSettingsView }) {
 
       <motion.div
         style={{ y: contentY, opacity: contentOpacity }}
-        className="relative mx-auto w-full max-w-7xl px-6 pb-28 pt-48 sm:pb-32"
+        className="relative mx-auto w-full max-w-7xl px-6 pb-16 pt-32 sm:pb-28 sm:pt-48 lg:pb-32"
       >
         <motion.p
           initial={{ opacity: 0, y: 12 }}
@@ -73,14 +73,14 @@ export function Hero({ settings }: { settings: SiteSettingsView }) {
 
         <AnimatedHeading
           lines={["Your trusted", "partner in business."]}
-          className="max-w-3xl font-display text-6xl leading-[1.08] text-paper sm:text-7xl lg:text-8xl"
+          className="max-w-3xl font-display text-[2.75rem] leading-[1.1] text-paper sm:text-6xl sm:leading-[1.08] lg:text-7xl xl:text-8xl"
         />
 
         <motion.p
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7, ease: "easeOut" }}
-          className="mt-8 max-w-lg text-lg text-paper/70"
+          className="mt-5 max-w-lg text-base text-paper/70 sm:mt-8 sm:text-lg"
         >
           {settings.subTagline} — an independent firm of Accountants and Tax
           Advisors, working alongside you as an extended part of your team.
@@ -90,7 +90,7 @@ export function Hero({ settings }: { settings: SiteSettingsView }) {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.9, ease: "easeOut" }}
-          className="mt-10 flex flex-wrap items-center gap-4"
+          className="mt-7 flex flex-wrap items-center gap-3 sm:mt-10 sm:gap-4"
         >
           <MagneticButton href="/contact" variant="primary">
             Book a consultation
@@ -110,7 +110,7 @@ export function Hero({ settings }: { settings: SiteSettingsView }) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 1.1, ease: [0.22, 1, 0.36, 1] }}
-            className="mt-14 flex items-center gap-4"
+            className="mt-9 flex items-center gap-4 sm:mt-14"
           >
             <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-paper/20 bg-paper/10 text-paper backdrop-blur">
               <ShieldCheck className="h-5 w-5" strokeWidth={1.6} />

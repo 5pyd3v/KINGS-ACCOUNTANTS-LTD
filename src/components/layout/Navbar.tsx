@@ -36,7 +36,7 @@ export function Navbar() {
       >
         <nav
           className={cn(
-            "mx-auto flex max-w-7xl items-center justify-between rounded-full border border-ink-200/70 bg-paper/70 shadow-[0_8px_32px_-12px_rgba(26,22,19,0.18)] backdrop-blur-md transition-[padding] duration-500 ease-out",
+            "mx-auto flex max-w-7xl items-center justify-between rounded-full border border-ink-200/70 bg-paper/95 shadow-[0_8px_32px_-12px_rgba(26,22,19,0.18)] transition-[padding] duration-500 ease-out md:bg-paper/70 md:backdrop-blur-md",
             scrolled ? "px-5 py-2.5" : "px-6 py-3.5"
           )}
         >

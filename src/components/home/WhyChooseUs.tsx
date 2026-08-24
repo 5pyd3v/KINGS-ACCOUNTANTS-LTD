@@ -7,10 +7,10 @@ import type { SiteSettingsView } from "@/lib/site-config";
 
 export function WhyChooseUs({ settings }: { settings: SiteSettingsView }) {
   return (
-    <section className="relative overflow-hidden bg-paper-dim py-28">
+    <section className="relative overflow-hidden bg-paper-dim py-16 sm:py-20 lg:py-28">
       <div className="pointer-events-none absolute left-1/3 top-0 h-[30rem] w-[30rem] -translate-x-1/2 rounded-full bg-brand-50 opacity-50 blur-3xl" />
       <div className="relative mx-auto max-w-7xl px-6">
-        <div className="grid gap-16 lg:grid-cols-[1fr_1.15fr]">
+        <div className="grid gap-10 lg:grid-cols-[1fr_1.15fr] lg:gap-16">
           <div className="lg:sticky lg:top-32 lg:self-start">
             <Reveal>
               <p className="mb-5 flex items-center gap-3 text-xs font-medium uppercase tracking-[0.28em] text-brand-700">

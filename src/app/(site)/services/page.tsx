@@ -26,7 +26,7 @@ export default async function ServicesPage() {
         image={officeImage}
       />
 
-      <section className="bg-paper py-24">
+      <section className="bg-paper py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-6">
           <div className="divide-y divide-ink-100 border-y border-ink-100">
             {services.map((service, index) => (

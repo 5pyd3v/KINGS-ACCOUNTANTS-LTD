@@ -23,7 +23,7 @@ export default async function ContactPage() {
         image={receptionImage}
       />
 
-      <section className="bg-paper py-24">
+      <section className="bg-paper py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-14 lg:grid-cols-[1fr_1.5fr]">
             <div className="space-y-10 lg:sticky lg:top-32 lg:self-start">

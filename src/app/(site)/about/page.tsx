@@ -45,9 +45,9 @@ export default async function AboutPage() {
         image={aboutImage}
       />
 
-      <section className="bg-paper py-28">
+      <section className="bg-paper py-16 sm:py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="grid gap-16 lg:grid-cols-[1fr_1.1fr]">
+          <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
             <div className="lg:sticky lg:top-32 lg:self-start">
               <ScrollHeading
                 lines={["Trusted partners,", "not just advisors."]}
@@ -69,7 +69,7 @@ export default async function AboutPage() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden border-y border-ink-100 bg-paper-dim py-28">
+      <section className="relative overflow-hidden border-y border-ink-100 bg-paper-dim py-16 sm:py-20 lg:py-28">
         <div className="pointer-events-none absolute -left-32 bottom-0 h-[26rem] w-[26rem] rounded-full bg-brand-50 opacity-50 blur-3xl" />
         <div className="relative mx-auto max-w-7xl px-6">
           <Reveal>
@@ -83,7 +83,7 @@ export default async function AboutPage() {
             className="max-w-2xl font-display text-4xl leading-[1.2] text-ink-900 sm:text-5xl"
           />
 
-          <div className="mt-16 grid gap-4 md:grid-cols-3">
+          <div className="mt-10 grid gap-4 sm:mt-16 md:grid-cols-3">
             {FOCUS_AREAS.map((area, index) => (
               <Reveal key={area.title} delay={index * 0.08}>
                 <FeatureCard
@@ -122,14 +122,14 @@ export default async function AboutPage() {
         </Reveal>
       </section>
 
-      <section className="relative overflow-hidden bg-paper py-28">
+      <section className="relative overflow-hidden bg-paper py-16 sm:py-20 lg:py-28">
         <div className="pointer-events-none absolute -right-32 top-0 h-[26rem] w-[26rem] rounded-full bg-gilt-200 opacity-30 blur-3xl" />
         <div className="relative mx-auto max-w-7xl px-6">
           <ScrollHeading
             lines={["What sets us apart."]}
             className="font-display text-4xl leading-[1.2] text-ink-900 sm:text-5xl"
           />
-          <div className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-10 grid gap-4 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3">
             {settings.whyChooseUs.map((pillar, index) => (
               <Reveal key={pillar.title} delay={index * 0.06}>
                 <FeatureCard

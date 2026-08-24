@@ -50,7 +50,7 @@ export default async function ServiceDetailPage({
     <>
       <PageHeader eyebrow="Service" lines={[service.title]} intro={service.brief} image={officeImage} />
 
-      <section className="bg-paper py-24">
+      <section className="bg-paper py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-6">
           <Link
             href="/services"
@@ -77,7 +77,7 @@ export default async function ServiceDetailPage({
       </section>
 
       {others.length > 0 && (
-        <section className="border-t border-ink-100 bg-paper-dim py-24">
+        <section className="border-t border-ink-100 bg-paper-dim py-14 sm:py-24">
           <div className="mx-auto max-w-7xl px-6">
             <h2 className="font-display text-2xl text-ink-900">Other services</h2>
             <div className="mt-10 grid gap-4 md:grid-cols-3">

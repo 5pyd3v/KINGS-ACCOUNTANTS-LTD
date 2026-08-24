@@ -26,7 +26,7 @@ export default async function InsightsPage() {
         image={insightsImage}
       />
 
-      <section className="bg-paper py-24">
+      <section className="bg-paper py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-5 lg:grid-cols-2">
             {caseStudies.map((caseStudy, index) => (

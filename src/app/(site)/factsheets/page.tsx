@@ -29,7 +29,7 @@ export default async function FactsheetsPage() {
         image={receptionImage}
       />
 
-      <section className="bg-paper py-24">
+      <section className="bg-paper py-14 sm:py-24">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {categories.map((category, index) => (

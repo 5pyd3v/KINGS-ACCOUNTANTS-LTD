@@ -15,8 +15,8 @@ export async function Footer() {
 
   return (
     <footer className="border-t border-ink-100 bg-paper">
-      <div className="mx-auto max-w-7xl px-6 py-20">
-        <div className="grid gap-14 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
+      <div className="mx-auto max-w-7xl px-6 py-14 sm:py-20">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr] lg:gap-14">
           <div>
             <Image
               src="/logo/kings-accountants-logo.png"
@@ -88,7 +88,7 @@ export async function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 flex flex-col gap-4 border-t border-ink-100 pt-8 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-10 flex flex-col gap-4 border-t border-ink-100 pt-8 sm:mt-16 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-ink-400">
             © {new Date().getFullYear()} Kings Accountants Ltd. All rights reserved.
           </p>

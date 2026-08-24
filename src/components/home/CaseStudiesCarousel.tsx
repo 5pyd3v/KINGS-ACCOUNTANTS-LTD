@@ -8,9 +8,9 @@ import type { CaseStudyView } from "@/lib/content";
 /** Fixed grid of case studies — no scroll-jacking or horizontal scroll. */
 export function CaseStudiesCarousel({ caseStudies }: { caseStudies: CaseStudyView[] }) {
   return (
-    <section className="bg-paper-dim py-28">
+    <section className="bg-paper-dim py-16 sm:py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="mb-14 flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+        <div className="mb-10 flex flex-col justify-between gap-8 sm:mb-14 lg:flex-row lg:items-end">
           <div>
             <Reveal>
               <p className="mb-5 flex items-center gap-3 text-xs font-medium uppercase tracking-[0.28em] text-brand-700">
@@ -66,7 +66,7 @@ function CaseStudyCard({ caseStudy }: { caseStudy: CaseStudyView }) {
         </div>
       )}
 
-      <div className="relative flex flex-1 flex-col justify-between bg-gradient-to-b from-paper to-paper-dim/60 p-9">
+      <div className="relative flex flex-1 flex-col justify-between bg-gradient-to-b from-paper to-paper-dim/60 p-6 sm:p-9">
         <span className="pointer-events-none absolute inset-0 bg-gradient-to-br from-brand-50 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
         <div className="relative">

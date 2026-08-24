@@ -59,7 +59,7 @@ export default async function FactsheetDetailPage({
         intro={category.description || undefined}
       />
 
-      <section className="bg-paper py-24">
+      <section className="bg-paper py-14 sm:py-24">
         <div className="mx-auto max-w-5xl px-6">
           <Link
             href={`/factsheets/${category.slug}`}
