@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "framer-motion";
-import { LogoMark } from "@/components/shared/LogoMark";
 import { cn } from "@/lib/utils";
 
 const LINKS = [
@@ -41,9 +41,14 @@ export function Navbar() {
           )}
         >
           <Link href="/" className="shrink-0" aria-label="Kings Accountants Ltd — home">
-            <LogoMark
+            <Image
+              src="/logo/kings-accountants-logo.png"
+              alt="Kings Accountants Ltd — Accountants and Tax Advisors"
+              width={940}
+              height={201}
+              priority
               className={cn(
-                "transition-[height] duration-500 ease-out",
+                "w-auto transition-[height] duration-500 ease-out",
                 scrolled ? "h-9" : "h-11"
               )}
             />
@@ -107,7 +112,13 @@ export function Navbar() {
             className="fixed inset-0 z-[60] bg-paper md:hidden"
           >
             <div className="flex items-center justify-between px-6 py-6">
-              <LogoMark className="h-9" />
+              <Image
+                src="/logo/kings-accountants-logo.png"
+                alt="Kings Accountants Ltd"
+                width={940}
+                height={201}
+                className="h-9 w-auto"
+              />
               <button
                 type="button"
                 onClick={() => setMenuOpen(false)}

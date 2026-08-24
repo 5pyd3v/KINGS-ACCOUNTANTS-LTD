@@ -1,5 +1,5 @@
+import Image from "next/image";
 import Link from "next/link";
-import { LogoMark } from "@/components/shared/LogoMark";
 import { getServices, getSiteSettings } from "@/lib/content";
 
 const COMPANY_LINKS = [
@@ -18,7 +18,13 @@ export async function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-14 sm:py-20">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr] lg:gap-14">
           <div>
-            <LogoMark className="h-10" />
+            <Image
+              src="/logo/kings-accountants-logo.png"
+              alt="Kings Accountants Ltd — Accountants and Tax Advisors"
+              width={940}
+              height={201}
+              className="h-10 w-auto"
+            />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-ink-500">
               {settings.intro}
             </p>

@@ -1,10 +1,10 @@
 "use client";
 
 import { useActionState } from "react";
+import Image from "next/image";
 import { useFormStatus } from "react-dom";
 import { motion } from "framer-motion";
 import { Loader2 } from "lucide-react";
-import { LogoMark } from "@/components/shared/LogoMark";
 import { loginAction, type LoginState } from "@/app/admin/login/actions";
 
 function SubmitButton() {
@@ -40,7 +40,14 @@ export function LoginForm({ callbackUrl }: { callbackUrl: string }) {
     >
       <div className="mb-10 flex justify-center">
         <div className="rounded-xl bg-paper px-5 py-4">
-          <LogoMark className="h-9" />
+          <Image
+            src="/logo/kings-accountants-logo.png"
+            alt="Kings Accountants Ltd"
+            width={940}
+            height={201}
+            priority
+            className="h-9 w-auto"
+          />
         </div>
       </div>
 
