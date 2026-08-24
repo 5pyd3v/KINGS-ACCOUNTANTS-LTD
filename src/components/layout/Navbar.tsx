@@ -37,7 +37,7 @@ export function Navbar() {
         <nav
           className={cn(
             "mx-auto flex max-w-7xl items-center justify-between rounded-full border border-ink-200/70 bg-paper/95 shadow-[0_8px_32px_-12px_rgba(26,22,19,0.18)] transition-[padding] duration-500 ease-out md:bg-paper/70 md:backdrop-blur-md",
-            scrolled ? "px-5 py-2.5" : "px-6 py-3.5"
+            scrolled ? "px-5 py-2" : "px-6 py-2.5"
           )}
         >
           <Link href="/" className="shrink-0" aria-label="Kings Accountants Ltd — home">
@@ -49,7 +49,7 @@ export function Navbar() {
               priority
               className={cn(
                 "w-auto transition-[height] duration-500 ease-out",
-                scrolled ? "h-9" : "h-11"
+                scrolled ? "h-8" : "h-10"
               )}
             />
           </Link>
@@ -62,7 +62,7 @@ export function Navbar() {
                   <Link
                     href={link.href}
                     className={cn(
-                      "relative py-1 font-display text-[15px] tracking-wide transition-colors duration-300",
+                      "relative py-1 font-display text-[16px] italic tracking-wide transition-colors duration-300",
                       active ? "text-brand-700" : "text-ink-600 hover:text-brand-700"
                     )}
                   >
@@ -85,7 +85,7 @@ export function Navbar() {
               href="/contact"
               className={cn(
                 "hidden rounded-full bg-brand-700 text-sm font-medium text-paper transition-[padding,background-color] duration-500 hover:bg-brand-600 sm:inline-flex",
-                scrolled ? "px-5 py-2" : "px-6 py-2.5"
+                scrolled ? "px-5 py-1.5" : "px-6 py-2"
               )}
             >
               Get in touch
