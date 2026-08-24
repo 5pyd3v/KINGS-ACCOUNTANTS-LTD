@@ -8,7 +8,7 @@ export const FACTSHEET_PROSE_CLASSES =
   "prose-headings:font-display prose-headings:text-ink-900 " +
   "prose-h2:text-2xl prose-h2:mb-4 prose-h2:mt-10 first:prose-h2:mt-0 " +
   "prose-h3:text-xl prose-h3:mb-3 prose-h3:mt-8 " +
-  "prose-p:text-ink-600 prose-p:leading-relaxed " +
+  "prose-p:text-ink-600 prose-p:leading-relaxed [&_p:empty]:min-h-[1.2em] " +
   "prose-strong:text-ink-900 prose-strong:font-semibold " +
   "prose-a:text-brand-700 prose-a:font-medium prose-a:no-underline hover:prose-a:underline " +
   "prose-ul:text-ink-600 prose-ol:text-ink-600 prose-li:marker:text-brand-600 " +

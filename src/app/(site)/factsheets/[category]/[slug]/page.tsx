@@ -60,7 +60,7 @@ export default async function FactsheetDetailPage({
       />
 
       <section className="bg-paper py-24">
-        <div className="mx-auto max-w-3xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <Link
             href={`/factsheets/${category.slug}`}
             className="group mb-14 inline-flex items-center gap-2 text-sm text-ink-500 transition-colors hover:text-brand-700"

@@ -9,7 +9,7 @@ import DOMPurify from "isomorphic-dompurify";
  * and again at render time as cheap defense in depth.
  *
  * Allowlist matches exactly what the Tiptap toolbar can produce: headings,
- * paragraphs, lists, emphasis, links, and inline color/font-size styling.
+ * paragraphs, lists, emphasis, links, and inline color/font-size/spacing styling.
  */
 export function sanitizeFactsheetHtml(html: string): string {
   return DOMPurify.sanitize(html, {

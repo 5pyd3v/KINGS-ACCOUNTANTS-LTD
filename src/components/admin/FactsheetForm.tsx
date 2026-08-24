@@ -106,7 +106,7 @@ export function FactsheetForm({
         )}
       </div>
 
-      <form onSubmit={handleSubmit} className="mt-10 max-w-3xl space-y-6">
+      <form onSubmit={handleSubmit} className="mt-10 max-w-4xl space-y-6">
         <Field label="Category" htmlFor="categorySlug">
           <select
             id="categorySlug"
