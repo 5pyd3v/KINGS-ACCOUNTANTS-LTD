@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { LogoMark } from "@/components/shared/LogoMark";
 import { getServices, getSiteSettings } from "@/lib/content";
 
 const COMPANY_LINKS = [
@@ -18,13 +18,7 @@ export async function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-14 sm:py-20">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr] lg:gap-14">
           <div>
-            <Image
-              src="/logo/kings-accountants-logo.png"
-              alt="Kings Accountants Ltd — Accountants and Tax Advisors"
-              width={940}
-              height={201}
-              className="h-10 w-auto"
-            />
+            <LogoMark className="h-10" />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-ink-500">
               {settings.intro}
             </p>
@@ -91,6 +85,8 @@ export async function Footer() {
         <div className="mt-10 flex flex-col gap-4 border-t border-ink-100 pt-8 sm:mt-16 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-ink-400">
             © {new Date().getFullYear()} Kings Accountants Ltd. All rights reserved.
+            {" · "}
+            <b>Developed by spydev.tech</b>
           </p>
           <p className="text-xs text-ink-400">
             {settings.addressLines[settings.addressLines.length - 2] ?? "Birmingham"},

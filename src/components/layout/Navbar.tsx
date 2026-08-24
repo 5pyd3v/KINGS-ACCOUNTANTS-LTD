@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "framer-motion";
+import { LogoMark } from "@/components/shared/LogoMark";
 import { cn } from "@/lib/utils";
 
 const LINKS = [
@@ -41,15 +41,10 @@ export function Navbar() {
           )}
         >
           <Link href="/" className="shrink-0" aria-label="Kings Accountants Ltd — home">
-            <Image
-              src="/logo/kings-accountants-logo.png"
-              alt="Kings Accountants Ltd — Accountants and Tax Advisors"
-              width={940}
-              height={201}
-              priority
+            <LogoMark
               className={cn(
-                "w-auto transition-[height] duration-500 ease-out",
-                scrolled ? "h-7" : "h-9"
+                "transition-[height] duration-500 ease-out",
+                scrolled ? "h-9" : "h-11"
               )}
             />
           </Link>
@@ -62,7 +57,7 @@ export function Navbar() {
                   <Link
                     href={link.href}
                     className={cn(
-                      "relative py-1 text-sm transition-colors duration-300",
+                      "relative py-1 font-display text-[15px] tracking-wide transition-colors duration-300",
                       active ? "text-brand-700" : "text-ink-600 hover:text-brand-700"
                     )}
                   >
@@ -112,13 +107,7 @@ export function Navbar() {
             className="fixed inset-0 z-[60] bg-paper md:hidden"
           >
             <div className="flex items-center justify-between px-6 py-6">
-              <Image
-                src="/logo/kings-accountants-logo.png"
-                alt="Kings Accountants Ltd"
-                width={940}
-                height={201}
-                className="h-8 w-auto"
-              />
+              <LogoMark className="h-9" />
               <button
                 type="button"
                 onClick={() => setMenuOpen(false)}

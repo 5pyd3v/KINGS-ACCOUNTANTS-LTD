@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { LogoMark } from "@/components/shared/LogoMark";
 import { signOut } from "next-auth/react";
 import {
   BookOpen,
@@ -40,13 +40,7 @@ export function AdminShell({
       <aside className="hidden w-64 shrink-0 flex-col border-r border-paper/10 lg:flex">
         <div className="border-b border-paper/10 px-6 py-6">
           <Link href="/" className="block rounded-lg bg-paper px-3 py-2.5">
-            <Image
-              src="/logo/kings-accountants-logo.png"
-              alt="Kings Accountants Ltd"
-              width={940}
-              height={201}
-              className="h-6 w-auto"
-            />
+            <LogoMark className="h-7" />
           </Link>
         </div>
 
