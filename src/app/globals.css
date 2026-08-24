@@ -94,6 +94,7 @@ html {
 }
 
 body {
+  position: relative;
   background: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-sans);
@@ -104,10 +105,17 @@ body {
   color: var(--color-paper);
 }
 
-/* Subtle film-grain texture, layered over the entire site for tactile depth. */
+/*
+ * Subtle film-grain texture, layered over the entire page for tactile depth.
+ * Deliberately `absolute` (scrolls with the page) rather than `fixed`: a
+ * fixed mix-blend-mode layer has to re-blend against the scrolling content
+ * beneath it on every single frame, which is what caused the scroll jank.
+ * Absolute lets the browser composite it once and translate it with the
+ * page like any other content — same visual effect, near-zero scroll cost.
+ */
 body::before {
   content: "";
-  position: fixed;
+  position: absolute;
   inset: 0;
   z-index: 60;
   pointer-events: none;

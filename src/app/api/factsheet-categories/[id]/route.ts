@@ -2,7 +2,12 @@ import { NextResponse } from "next/server";
 import { FactsheetCategory, Factsheet } from "@/models";
 import { factsheetCategorySchema } from "@/lib/validation";
 import { slugify } from "@/lib/slugify";
-import { parseAdminBody, requireAdmin, handleApiError } from "@/lib/api-helpers";
+import {
+  parseAdminBody,
+  requireAdmin,
+  handleApiError,
+  revalidateFactsheets,
+} from "@/lib/api-helpers";
 import { dbConnect } from "@/lib/db";
 
 export async function PUT(
@@ -31,6 +36,7 @@ export async function PUT(
       await Factsheet.updateMany({ categorySlug: previous.slug }, { categorySlug: nextSlug });
     }
 
+    revalidateFactsheets();
     return NextResponse.json({ category });
   } catch (caught) {
     return handleApiError("factsheet-categories.PUT", caught);
@@ -50,6 +56,7 @@ export async function DELETE(
     const deleted = await FactsheetCategory.findByIdAndDelete(id);
     if (!deleted) return NextResponse.json({ error: "Not found." }, { status: 404 });
     await Factsheet.deleteMany({ categorySlug: deleted.slug });
+    revalidateFactsheets();
     return NextResponse.json({ ok: true });
   } catch (caught) {
     return handleApiError("factsheet-categories.DELETE", caught);

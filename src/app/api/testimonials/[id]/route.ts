@@ -1,7 +1,12 @@
 import { NextResponse } from "next/server";
 import { Testimonial } from "@/models";
 import { testimonialSchema } from "@/lib/validation";
-import { parseAdminBody, requireAdmin, handleApiError } from "@/lib/api-helpers";
+import {
+  parseAdminBody,
+  requireAdmin,
+  handleApiError,
+  revalidateTestimonials,
+} from "@/lib/api-helpers";
 import { dbConnect } from "@/lib/db";
 
 export async function PUT(
@@ -18,6 +23,7 @@ export async function PUT(
       runValidators: true,
     });
     if (!testimonial) return NextResponse.json({ error: "Not found." }, { status: 404 });
+    revalidateTestimonials();
     return NextResponse.json({ testimonial });
   } catch (caught) {
     return handleApiError("testimonials.PUT", caught);
@@ -36,6 +42,7 @@ export async function DELETE(
     await dbConnect();
     const deleted = await Testimonial.findByIdAndDelete(id);
     if (!deleted) return NextResponse.json({ error: "Not found." }, { status: 404 });
+    revalidateTestimonials();
     return NextResponse.json({ ok: true });
   } catch (caught) {
     return handleApiError("testimonials.DELETE", caught);

@@ -2,7 +2,12 @@ import { NextResponse } from "next/server";
 import { Service } from "@/models";
 import { serviceSchema } from "@/lib/validation";
 import { slugify } from "@/lib/slugify";
-import { parseAdminBody, requireAdmin, handleApiError } from "@/lib/api-helpers";
+import {
+  parseAdminBody,
+  requireAdmin,
+  handleApiError,
+  revalidateServices,
+} from "@/lib/api-helpers";
 import { dbConnect } from "@/lib/db";
 
 export async function PUT(
@@ -20,6 +25,7 @@ export async function PUT(
       { new: true, runValidators: true }
     );
     if (!service) return NextResponse.json({ error: "Not found." }, { status: 404 });
+    revalidateServices();
     return NextResponse.json({ service });
   } catch (caught) {
     return handleApiError("services.PUT", caught);
@@ -38,6 +44,7 @@ export async function DELETE(
     await dbConnect();
     const deleted = await Service.findByIdAndDelete(id);
     if (!deleted) return NextResponse.json({ error: "Not found." }, { status: 404 });
+    revalidateServices();
     return NextResponse.json({ ok: true });
   } catch (caught) {
     return handleApiError("services.DELETE", caught);

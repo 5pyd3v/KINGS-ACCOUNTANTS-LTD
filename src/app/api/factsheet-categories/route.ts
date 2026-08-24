@@ -3,7 +3,12 @@ import { dbConnect } from "@/lib/db";
 import { FactsheetCategory } from "@/models";
 import { factsheetCategorySchema } from "@/lib/validation";
 import { slugify } from "@/lib/slugify";
-import { parseAdminBody, requireAdmin, handleApiError } from "@/lib/api-helpers";
+import {
+  parseAdminBody,
+  requireAdmin,
+  handleApiError,
+  revalidateFactsheets,
+} from "@/lib/api-helpers";
 
 export async function GET() {
   const unauthorised = await requireAdmin();
@@ -23,6 +28,7 @@ export async function POST(request: Request) {
       ...data,
       slug: data.slug?.trim() ? slugify(data.slug) : slugify(data.title),
     });
+    revalidateFactsheets();
     return NextResponse.json({ category }, { status: 201 });
   } catch (caught) {
     return handleApiError("factsheet-categories.POST", caught);

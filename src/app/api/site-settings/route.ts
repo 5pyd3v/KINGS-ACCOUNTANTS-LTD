@@ -2,7 +2,12 @@ import { NextResponse } from "next/server";
 import { dbConnect } from "@/lib/db";
 import { SiteSetting, SITE_SETTING_KEY } from "@/models";
 import { siteSettingsSchema } from "@/lib/validation";
-import { parseAdminBody, requireAdmin, handleApiError } from "@/lib/api-helpers";
+import {
+  parseAdminBody,
+  requireAdmin,
+  handleApiError,
+  revalidateSiteSettings,
+} from "@/lib/api-helpers";
 
 export async function GET() {
   const unauthorised = await requireAdmin();
@@ -23,6 +28,7 @@ export async function PUT(request: Request) {
       { $set: { ...data, key: SITE_SETTING_KEY } },
       { new: true, upsert: true, runValidators: true }
     );
+    revalidateSiteSettings();
     return NextResponse.json({ settings });
   } catch (caught) {
     return handleApiError("site-settings.PUT", caught);

@@ -3,7 +3,12 @@ import { Factsheet } from "@/models";
 import { factsheetSchema } from "@/lib/validation";
 import { slugify } from "@/lib/slugify";
 import { sanitizeFactsheetHtml } from "@/lib/sanitize-html";
-import { parseAdminBody, requireAdmin, handleApiError } from "@/lib/api-helpers";
+import {
+  parseAdminBody,
+  requireAdmin,
+  handleApiError,
+  revalidateFactsheets,
+} from "@/lib/api-helpers";
 import { dbConnect } from "@/lib/db";
 
 export async function PUT(
@@ -25,6 +30,7 @@ export async function PUT(
       { new: true, runValidators: true }
     );
     if (!factsheet) return NextResponse.json({ error: "Not found." }, { status: 404 });
+    revalidateFactsheets();
     return NextResponse.json({ factsheet });
   } catch (caught) {
     return handleApiError("factsheets.PUT", caught);
@@ -43,6 +49,7 @@ export async function DELETE(
     await dbConnect();
     const deleted = await Factsheet.findByIdAndDelete(id);
     if (!deleted) return NextResponse.json({ error: "Not found." }, { status: 404 });
+    revalidateFactsheets();
     return NextResponse.json({ ok: true });
   } catch (caught) {
     return handleApiError("factsheets.DELETE", caught);

@@ -36,7 +36,7 @@ export function Navbar() {
       >
         <nav
           className={cn(
-            "mx-auto flex max-w-7xl items-center justify-between rounded-full border border-ink-200/70 bg-paper/70 shadow-[0_8px_32px_-12px_rgba(26,22,19,0.18)] backdrop-blur-xl transition-all duration-500 ease-out",
+            "mx-auto flex max-w-7xl items-center justify-between rounded-full border border-ink-200/70 bg-paper/70 shadow-[0_8px_32px_-12px_rgba(26,22,19,0.18)] backdrop-blur-md transition-[padding] duration-500 ease-out",
             scrolled ? "px-5 py-2.5" : "px-6 py-3.5"
           )}
         >
@@ -48,7 +48,7 @@ export function Navbar() {
               height={201}
               priority
               className={cn(
-                "w-auto transition-all duration-500 ease-out",
+                "w-auto transition-[height] duration-500 ease-out",
                 scrolled ? "h-7" : "h-9"
               )}
             />
@@ -84,7 +84,7 @@ export function Navbar() {
             <Link
               href="/contact"
               className={cn(
-                "hidden rounded-full bg-brand-700 text-sm font-medium text-paper transition-all duration-500 hover:bg-brand-600 sm:inline-flex",
+                "hidden rounded-full bg-brand-700 text-sm font-medium text-paper transition-[padding,background-color] duration-500 hover:bg-brand-600 sm:inline-flex",
                 scrolled ? "px-5 py-2" : "px-6 py-2.5"
               )}
             >

@@ -3,7 +3,12 @@ import { dbConnect } from "@/lib/db";
 import { CaseStudy } from "@/models";
 import { caseStudySchema } from "@/lib/validation";
 import { slugify } from "@/lib/slugify";
-import { parseAdminBody, requireAdmin, handleApiError } from "@/lib/api-helpers";
+import {
+  parseAdminBody,
+  requireAdmin,
+  handleApiError,
+  revalidateCaseStudies,
+} from "@/lib/api-helpers";
 
 export async function GET() {
   const unauthorised = await requireAdmin();
@@ -23,6 +28,7 @@ export async function POST(request: Request) {
       ...data,
       slug: data.slug?.trim() ? slugify(data.slug) : slugify(data.title),
     });
+    revalidateCaseStudies();
     return NextResponse.json({ caseStudy }, { status: 201 });
   } catch (caught) {
     return handleApiError("case-studies.POST", caught);

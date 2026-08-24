@@ -2,7 +2,12 @@ import { NextResponse } from "next/server";
 import { dbConnect } from "@/lib/db";
 import { Testimonial } from "@/models";
 import { testimonialSchema } from "@/lib/validation";
-import { parseAdminBody, requireAdmin, handleApiError } from "@/lib/api-helpers";
+import {
+  parseAdminBody,
+  requireAdmin,
+  handleApiError,
+  revalidateTestimonials,
+} from "@/lib/api-helpers";
 
 export async function GET() {
   const unauthorised = await requireAdmin();
@@ -19,6 +24,7 @@ export async function POST(request: Request) {
 
   try {
     const testimonial = await Testimonial.create(data);
+    revalidateTestimonials();
     return NextResponse.json({ testimonial }, { status: 201 });
   } catch (caught) {
     return handleApiError("testimonials.POST", caught);
