@@ -62,8 +62,8 @@ export function Navbar() {
                   <Link
                     href={link.href}
                     className={cn(
-                      "relative py-1 font-display text-[16px] italic tracking-wide transition-colors duration-300",
-                      active ? "text-brand-700" : "text-ink-600 hover:text-brand-700"
+                      "relative py-1 font-nav text-[14px] font-medium tracking-normal text-black transition-colors duration-300",
+                      active ? "text-brand-700" : "hover:text-brand-700"
                     )}
                   >
                     {link.label}
@@ -139,7 +139,7 @@ export function Navbar() {
                   <Link
                     href={link.href}
                     onClick={() => setMenuOpen(false)}
-                    className="block border-b border-ink-100 py-5 font-display text-3xl text-ink-900"
+                    className="block border-b border-ink-100 py-5 font-nav text-2xl font-semibold text-black"
                   >
                     {link.label}
                   </Link>
