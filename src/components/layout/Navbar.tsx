@@ -36,10 +36,11 @@ export function Navbar() {
       >
         <nav
           className={cn(
-            "mx-auto flex max-w-7xl items-center justify-between rounded-full border border-ink-200/70 bg-paper/95 shadow-[0_8px_32px_-12px_rgba(26,22,19,0.18)] transition-[padding] duration-500 ease-out md:bg-paper/70 md:backdrop-blur-md",
-            scrolled ? "px-5 py-2" : "px-6 py-2.5"
+            "mx-auto flex max-w-7xl items-center justify-between gap-3 rounded-full border border-ink-200/70 bg-paper/95 shadow-[0_8px_32px_-12px_rgba(26,22,19,0.18)] transition-[padding] duration-500 ease-out lg:bg-paper/70 lg:backdrop-blur-md",
+            scrolled ? "px-4 py-2 sm:px-5" : "px-5 py-2.5 sm:px-6"
           )}
         >
+          {/* Logo */}
           <Link href="/" className="shrink-0" aria-label="Kings Accountants Ltd — home">
             <Image
               src="/logo/kings-accountants-logo.png"
@@ -49,20 +50,21 @@ export function Navbar() {
               priority
               className={cn(
                 "w-auto transition-[height] duration-500 ease-out",
-                scrolled ? "h-8" : "h-10"
+                scrolled ? "h-7 sm:h-8" : "h-8 sm:h-10"
               )}
             />
           </Link>
 
-          <ul className="hidden items-center gap-9 md:flex">
+          {/* Desktop links — only shown once there's actually room (lg+) */}
+          <ul className="hidden shrink-0 items-center gap-6 xl:gap-9 lg:flex">
             {LINKS.map((link) => {
               const active = pathname === link.href || pathname.startsWith(`${link.href}/`);
               return (
-                <li key={link.href}>
+                <li key={link.href} className="shrink-0">
                   <Link
                     href={link.href}
                     className={cn(
-                      "relative py-1 font-nav text-[14px] font-medium tracking-normal text-black transition-colors duration-300",
+                      "relative whitespace-nowrap py-1 font-nav text-[14px] font-medium tracking-normal text-black transition-colors duration-300",
                       active ? "text-brand-700" : "hover:text-brand-700"
                     )}
                   >
@@ -80,11 +82,12 @@ export function Navbar() {
             })}
           </ul>
 
-          <div className="flex items-center gap-3">
+          {/* Right side: CTA (lg+) and hamburger (below lg) */}
+          <div className="flex shrink-0 items-center gap-3">
             <Link
               href="/contact"
               className={cn(
-                "hidden rounded-full bg-brand-700 text-sm font-medium text-paper transition-[padding,background-color] duration-500 hover:bg-brand-600 sm:inline-flex",
+                "hidden whitespace-nowrap rounded-full bg-brand-700 text-sm font-medium text-paper transition-[padding,background-color] duration-500 hover:bg-brand-600 lg:inline-flex",
                 scrolled ? "px-5 py-1.5" : "px-6 py-2"
               )}
             >
@@ -94,7 +97,7 @@ export function Navbar() {
               type="button"
               onClick={() => setMenuOpen(true)}
               aria-label="Open menu"
-              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-ink-200 text-ink-800 transition-colors hover:border-brand-300 hover:text-brand-700 md:hidden"
+              className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-ink-200 text-ink-800 transition-colors hover:border-brand-300 hover:text-brand-700 lg:hidden"
             >
               <Menu className="h-4 w-4" />
             </button>
@@ -109,7 +112,7 @@ export function Navbar() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-[60] bg-paper md:hidden"
+            className="fixed inset-0 z-[60] bg-paper lg:hidden"
           >
             <div className="flex items-center justify-between px-6 py-6">
               <Image
